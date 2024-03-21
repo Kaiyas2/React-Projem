@@ -1,0 +1,77 @@
+.kücük-yan-resim{
+    background: linear-gradient(0deg, #fbfbfb 0%, #e4eef5 100%);
+    width: 100%;
+    height: 100%;
+    margin-left: 50%;
+    position: absolute;
+    top: 20%;
+}
+.saglık-btn2{
+    padding: 15px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 6px;
+}
+.saglık-btn3{
+    padding: 15px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 6px;
+}
+.saglık-btn4{
+    padding: 15px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.saglık-btn{
+    padding: 15px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.saglık-btn:hover{
+    background-color: rgb(8, 8, 56);
+    transition: background-color 200ms, color 200ms, border-color 200ms;
+    color: white;
+    cursor: pointer;
+}
+.saglık-btn2:hover{
+    background-color: rgb(8, 8, 56);
+    transition: background-color 200ms, color 200ms, border-color 200ms;
+    color: white;
+    cursor: pointer;
+}
+.saglık-btn3:hover{
+    background-color: rgb(8, 8, 56);
+    transition: background-color 200ms, color 200ms, border-color 200ms;
+    color: white;
+    cursor: pointer;
+}
+.saglık-btn4:hover{
+    background-color: rgb(8, 8, 56);
+    transition: background-color 200ms, color 200ms, border-color 200ms;
+    color: white;
+    cursor: pointer;
+}
+.saglık-yazı{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+.saglık-btn-genel{
+    
+    margin-top: 20px;
+}
+.genel-bos{
+    display: flex;
+    background: linear-gradient(0deg, #fbfbfb 0%, #e4eef5 100%);
+}

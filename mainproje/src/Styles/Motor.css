@@ -1,0 +1,64 @@
+.motor-resim{
+    background-image: url(../resim/quick-motosiklet-sigortasi.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.motor-covid{
+    border: 3px solid green;
+    width: 17%;
+    padding: 10px;
+    height: 20px;
+    background-color: rgb(11, 176, 11);
+    border-radius: 25px;
+}
+.motor-orta{
+    margin-top: 7%;
+    margin-left: 12%;
+    color: white;
+}
+.motor-btn{
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    width: 100px;
+    background-color: transparent;
+
+}
+.motor-btn2{
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: white;
+    padding: 15px;
+    width: 100px;
+    background-color: transparent;
+
+}
+.motor-btn3{
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    width: 135px;
+    background-color: transparent;
+
+
+}
+.motor-btn:hover{
+    background-color: white;
+    color: deeppink;
+    cursor: pointer;
+}
+.motor-btn2:hover{
+    background-color: white;
+    color: deeppink;
+    cursor: pointer;
+}
+.motor-btn3:hover{
+    background-color: white;
+    color: deeppink;
+    cursor: pointer;
+}
