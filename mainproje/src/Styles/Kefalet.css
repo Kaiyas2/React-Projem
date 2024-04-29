@@ -1,0 +1,73 @@
+.resim{
+    background-image: url(../resim/quick-kefalet-senedi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}
+.kefalet-yazi{
+    margin-left: 3%;
+    height: 15px;
+    
+}
+.kefalet-yazi2{
+    margin-left: 3%;
+   
+    
+}
+h1{
+    margin-top: 3%;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+p{
+    color:white;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+.sag-bar{
+    display: flex;
+  flex-direction: column;
+    position: absolute;
+    top: 25%;
+    right: 30px;
+    border-radius: 10px;
+    align-items: center;
+    width: 25%;
+    height: 50%;
+    background-color: white;
+}
+.sag-bar-btn1{
+    padding: 14px;
+    font-size: 16px;
+    width: 70%;
+    background-color: deeppink;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+.sag-bar label{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 300;
+}
+.sag-bar-btn2{
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 16px;
+    width: 70%;
+    background-color: #1f2346;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.sag-bar-btn2:hover{
+    cursor: pointer;
+    background-color: royalblue;
+    transition: background-color 200ms, color 200ms, border-color 200ms;
+}

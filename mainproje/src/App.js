@@ -21,6 +21,9 @@ import { Motor } from './components/Motor';
 import './Styles/Inform.css';
 import { Kasko } from './components/Kasko';
 import { Saglık } from './components/Saglık';
+import Kefalet from './components/Kefalet';
+import Footer from './components/Footer';
+import BinaSig from './components/BinaSig';
 
 
 
@@ -29,17 +32,19 @@ function App() {
    
     <div className="App">
        <Navbar/>
-      
-      <div className='resim'>
+     
+      <div>
        <Routes>
        <Route path='/' element={<Kasko/>}/>
        <Route path='/Motor' element={<Motor/>}/>
        <Route path='/Saglık' element={<Saglık/>}/>
+       <Route path='/Kefalet' element={<Kefalet/>}/>
+       <Route path='/Bina' element={<BinaSig/>}/>
       
        </Routes>
-       
+     
       
-        
+     <Footer/>
 
        </div>
       </div>

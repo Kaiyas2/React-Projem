@@ -12,18 +12,21 @@ import TwoWheelerIcon from '@mui/icons-material/TwoWheeler';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import '../App.css';
 import resim from '../resim/quick-sigorta.jpg'
+import { Route } from 'react-router-dom';
+import Kefalet from './Kefalet';
 
 export const Kasko = () => {
+ 
   return (
-    <div className='mainPage' style={{backgroundImage:`url(${resim})`}}>
+    <div className='mainPage'>
          <div className='bar'>
         <div className='bar-yazı'>  <span><h2>Quick Sigorta Finansal Sigorta Ürünleri</h2></span>
 
 <p>Banka teminat mektubu yerine geçecek kefalet senedi ve KOBİ'lere alacak sigortası</p></div>
       
 <div className='bar-btn' >
-    <button className='bar-btn1'>Kefalet Sigortası</button>
-    <button className='bar-btn2'>Bina tamamlama Sigortası</button>
+   <a href='/Kefalet'> <button className='bar-btn1'>Kefalet Sigortası</button></a>
+   <a href='/Bina'> <button className='bar-btn2'>Bina tamamlama Sigortası</button></a>
     <button className='bar-btn3'>Quick Finanscım</button>
     <button className='bar-btn4'>Alacak Sigortası</button>
     <button className='bar-btn5'>Fatura Koruma Sigortası</button>
@@ -41,13 +44,13 @@ export const Kasko = () => {
            <a href="/Motor"><TwoWheelerIcon fontSize='large' style={{marginRight:12,marginLeft:19}}/> Motorsiklet Trafik Sigortası</a>
           </div>
             <div className='side-bar-saglık'>
-        <a href='/Saglık'><LocalHospital fontSize='large' style={{marginRight:8,marginLeft:19}}/>Tamamlayıcı Sağlık Sigortası</a> 
+        <a  href='/Saglık'><LocalHospital fontSize='large'  style={{marginRight:8,marginLeft:19}}/>Tamamlayıcı Sağlık Sigortası</a> 
           </div>
           <div className='side-bar-dask'>
-            <AddHomeIcon fontSize='large'/>Dask
+            <AddHomeIcon fontSize='large'style={{marginRight:8}} /><span>Dask Koruma Sigortası</span>
           </div>
           <div className='side-bar-seyahat'>
-          <AirplanemodeActiveIcon fontSize='large'/>Seyahat Sigortası
+          <AirplanemodeActiveIcon fontSize='large' style={{marginRight:8}}/>Seyahat Sağlık Sigortası
           </div>
           <div className='side-bar-hekim'>
           <HeartBrokenIcon fontSize='large'/>Zorunlu Hekim Sorumluluk
@@ -74,7 +77,9 @@ export const Kasko = () => {
         <div className='yazılar-lol4'>
         <input type='checkbox'/><p>Açık Rıza Metni kapsamında kişisel verilerimin işlenmesine rıza gösteriyorum.</p></div>
         <button className='orta-btn'>FİYATI GÖR</button>
+        
         </div>
+       
       </div>
   )
 }

@@ -2,13 +2,14 @@
     background-color: rgb(8, 8, 56);
     color: white;
     display: flex;
-    height: 150px;
+    height: 160px;
     
 }
 .bar-yazı{
     width: 22%;
     height: 30%;
-    margin-left: 10%;
+    margin-left: 7%;
+    font-weight: 200;
 }
 .bar-btn{
   margin-top: 85px;
@@ -16,7 +17,7 @@
   
 }
 .bar-btn1{
-    padding: 10px;
+    padding: 13px;
     background-color: rgb(8, 8, 56); 
     color: white;
     margin-right: 10px;
@@ -28,9 +29,10 @@
     background-color: white;
     color: black;
     cursor: pointer;
+    transition: background-color 200ms, color 200ms, border-color 200ms;
 }
 .bar-btn2{
-    padding: 10px;
+    padding: 13px;
     background-color: rgb(8, 8, 56);
     color: white;
     margin-right: 10px;
@@ -41,9 +43,10 @@
     background-color: white;
     color: black;
     cursor: pointer;
+    transition: background-color 200ms, color 200ms, border-color 200ms;
 }
 .bar-btn3{
-    padding: 10px;
+    padding: 13px;
     background-color: rgb(8, 8, 56);
     color: white;
     margin-right: 10px;
@@ -54,9 +57,10 @@
     background-color: white;
     color: black;
     cursor: pointer;
+    transition: background-color 200ms, color 200ms, border-color 200ms;
 }
 .bar-btn4{
-    padding: 10px;
+    padding: 13px;
     background-color: rgb(8, 8, 56);
     color: white;
     margin-right: 10px;
@@ -67,9 +71,10 @@
     background-color: white;
     color: black;
     cursor: pointer;
+    transition: background-color 200ms, color 200ms, border-color 200ms;
 }
 .bar-btn5{
-    padding: 10px;
+    padding: 13px;
     background-color: rgb(8, 8, 56);
     color: white;
     border: 1px solid white;
@@ -80,6 +85,7 @@
     background-color: white;
     color: black;
     cursor: pointer;
+    transition: background-color 200ms, color 200ms, border-color 200ms;
 }
 
 
@@ -89,12 +95,12 @@
     justify-content: start;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 70%;
+    height: 65%;
     background-color: rgb(228, 221, 221);
-    width: 300px;
+    width: 280px;
     border-radius: 10px;
     position: absolute;
-    top: 34%;
+    top: 35%;
     overflow: hidden;
 }
 
@@ -104,7 +110,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80px;
+    height: 60px;
     background-color: #ea1c73;
     border-bottom-color: #ea1c73;
     color: white;
@@ -117,10 +123,10 @@
 }
 .side-bar-motor {
     display: block;
-    border-bottom: 1px solid black;
     font-size: larger;
-    height: 80px;
-    border-top: 1px solid #ea1c73;
+    border-bottom: 1px solid #e4e4e4;
+    height: 60px;
+    margin-bottom: 10px;
 }
 .side-bar-motor:hover{
     background-color: rgb(8, 8, 56);
@@ -145,12 +151,11 @@
 
 .side-bar-saglık{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
     
-    border-bottom: 1px solid black;
-   
+    height: 60px;
+    
+    border-bottom: 1px solid #e4e4e4;
+   margin-bottom: 10px;
     font-size: larger;
 }
 
@@ -181,9 +186,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80px;
-    border-bottom: 1px solid black;
+    height: 60px;
+    border-bottom: 1px solid #e4e4e4;
     font-size: larger;
+    margin-bottom: 10px;
+    
 }
 .side-bar-dask:hover{
     background-color: rgb(8, 8, 56);
@@ -196,9 +203,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80px;
-    border-bottom: 1px solid black;
+    height: 60px;
+    border-bottom: 1px solid #e4e4e4;
     font-size: larger;
+    margin-bottom: 10px;
 }
 .side-bar-seyahat:hover{
     background-color: rgb(8, 8, 56);
@@ -211,8 +219,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80px;
+    height: 60px;
     font-size: larger;
+    margin-bottom: 10px;
     
 }
 .side-bar-hekim:hover{
@@ -228,7 +237,7 @@
     justify-content: center;
     height: 80px;
     font-size: larger;
-    border-top: 1px solid black;
+    border-bottom: 1px solid #e4e4e4;
     
 }
 .side-bar-kimlik:hover{
@@ -245,7 +254,6 @@
     border:1px solid transparent;
     background-color: transparent;
     width: 20%;
-    height: 100%;
     color: white;
     flex-wrap: wrap;
 }
@@ -271,37 +279,33 @@
     padding: 10px;
     margin-left: 20px;
     border-radius: 4px;
+    
 }
 .yazılar-lol{
     display: flex;
     flex-direction: row;
+    font-weight: 300;
 }
 .yazılar-lol2{
     display: flex;
     flex-direction: row;
-    margin-left: 25%;
     width: 100%;
+    font-weight: 300;
 }
 .yazılar-lol3{
     display: flex;
     flex-direction: row;
-    margin-left: 35%;
     width: 100%;
+    font-weight: 300;
 }
 
 .yazılar-lol4{
     display: flex;
     flex-direction: row;
-    margin-left: 20%;
     width: 100%;
+    font-weight: 300;
 }
-[type="checkbox"]{
-    width: 20px;
-    height: 20px;
-    border-radius: 3px;
-    background-color: #fff;
-    border: 2px solid #888;
-}
+
 .orta-btn{
     margin-left: 30%;
     width: 150px;
@@ -320,3 +324,33 @@
     transition: background-color 200ms, color 200ms, border-color 200ms;
 }
 
+input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+  }
+  input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    border: 2px solid #555555;
+    border-radius: 3px;
+    background-color: white;
+  }
+  input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left:6px;
+  }
