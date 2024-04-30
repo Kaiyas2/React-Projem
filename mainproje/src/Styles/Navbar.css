@@ -69,10 +69,6 @@ text-decoration: none;
     display: block;
     text-decoration: none;
 }
-.topnav .links4:hover{
-    background-color: darkgrey;
-    opacity: 35%;
-}
 
 .buton{
     color: black;

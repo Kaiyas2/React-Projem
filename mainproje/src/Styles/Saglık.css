@@ -1,7 +1,18 @@
+.saglık-resim{
+    background: linear-gradient(0deg, #fbfbfb 0%, #e4eef5 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+
+
 .kücük-yan-resim{
     width: 100px;
     height: 20%;
-    margin-left: 65%;
+    right: 20%;
     position: absolute;
     top: 20%;
     background-color: transparent;
@@ -9,6 +20,7 @@
 .saglık-btn2{
     padding: 18px;
     background-color: transparent;
+    color: black;
     outline: none;
     border: 1px solid black;
     margin-left: 15px;
@@ -18,25 +30,31 @@
 .saglık-btn3{
     padding: 18px;
     background-color: transparent;
+    color: black;
     outline: none;
     border: 1px solid black;
     margin-left: 15px;
     margin-right: 15px;
     border-radius: 6px;
+    
 }
 .saglık-btn4{
     padding: 18px;
     background-color: transparent;
+    color: black;
     outline: none;
     border: 1px solid black;
     border-radius: 6px;
+   
 }
 .saglık-btn{
     padding: 18px;
     background-color: transparent;
+    color: black;
     outline: none;
     border: 1px solid black;
     border-radius: 6px;
+   
 }
 .saglık-btn:hover{
     background-color: rgb(8, 8, 56);
@@ -113,6 +131,8 @@ select{
 .saglık-fiyat-btn{
     margin-left: 2%;
     margin-top: 25px;
+    padding: 13px;
+    font-weight: 500;
     outline: none;
     border: none;
     border-radius: 9px;

@@ -27,10 +27,11 @@ import BinaSig from './components/BinaSig';
 
 
 
+
 function App() {
   return (
    
-    <div className="App">
+    <div className='App'>
        <Navbar/>
      
       <div>
@@ -42,9 +43,9 @@ function App() {
        <Route path='/Bina' element={<BinaSig/>}/>
       
        </Routes>
-     
-      
      <Footer/>
+      
+     
 
        </div>
       </div>

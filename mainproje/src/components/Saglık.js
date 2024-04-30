@@ -2,10 +2,12 @@ import React from 'react'
 import saglıkresim from '../resim/content-2343-ea7ea781-e31f-4adc-ae1d-537b0d37b95a_960x720.jpg';
 import '../Styles/Saglık.css';
 
+
 export const Saglık = () => {
   return (
     <div>
-        <div className='genel-bos'>
+        <div className='saglık-resim'>
+          
         <div className='saglık-yazı'>
             <label><h1>Quick</h1></label>
             <label>Tamamlayıcı Sağlık Sigortası</label>
@@ -18,7 +20,7 @@ export const Saglık = () => {
         <button className='saglık-btn3'>Teminatlar</button>
         <button className='saglık-btn4'>Merak Ettikleriniz</button>
         </div>
-        </div>
+        
         </div>
         <div className='saglık-input'>
             <label className='saglık-lol'>Cinsiyet</label>
@@ -290,7 +292,7 @@ export const Saglık = () => {
         <button className='saglık-fiyat-btn'>Fiyatı Gör</button>
          </div>
         
-       
+       </div>
        
         <div className='kücük-yan-resim'>
             <img src={saglıkresim} style={{width:450,height:450}}/>
