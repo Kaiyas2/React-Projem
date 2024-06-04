@@ -1,7 +1,6 @@
 import './App.css';
 import { Navbar } from './components/Navbar';
 import { Route,Router, Routes } from 'react-router-dom';
-import { Form } from './components/Form';
 import resim from './resim/quick-sigorta.jpg';
 import { Inform } from './components/Inform';
 import { Info } from '@mui/icons-material';
