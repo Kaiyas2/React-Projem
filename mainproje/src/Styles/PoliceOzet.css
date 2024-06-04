@@ -1,0 +1,31 @@
+.police-ozet-table1{
+
+    width: auto;
+    height: auto;
+    border: none;
+    color: black;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 25%;
+}
+.police-ozet-table2{
+    margin-left: 25%;
+
+    width: auto;
+    border: none;
+    color: black;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.step5-teklif2 {
+    color: deeppink;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 22%;
+
+}
+.police-bos{
+    margin-top: 3%;
+}
+

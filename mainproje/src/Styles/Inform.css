@@ -2,7 +2,7 @@
     background-color: rgb(8, 8, 56);
     color: white;
     display: flex;
-    height: 160px;
+    height: 190px;
     
 }
 .bar-yazı{
@@ -95,12 +95,12 @@
     justify-content: start;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 65%;
+    height: 68%;
     background-color: rgb(228, 221, 221);
     width: 280px;
     border-radius: 10px;
     position: absolute;
-    top: 35%;
+    top: 42%;
     overflow: hidden;
 }
 
@@ -109,7 +109,6 @@
    
     display: flex;
     align-items: center;
-    justify-content: center;
     height: 60px;
     background-color: #ea1c73;
     border-bottom-color: #ea1c73;
@@ -256,6 +255,7 @@
     width: 20%;
     color: white;
     flex-wrap: wrap;
+    height: 750px;
 }
 .textler{
     display: flex;
@@ -308,8 +308,9 @@
 
 .orta-btn{
     margin-left: 30%;
-    width: 150px;
-    height: 40px;
+    padding: 5px;
+    width: 170px;
+    height: 45px;
     font-size: 20px;
     background-color: #ea1c73;
     color: white;
@@ -324,33 +325,80 @@
     transition: background-color 200ms, color 200ms, border-color 200ms;
 }
 
-input[type=checkbox] {
-    position: relative;
-    cursor: pointer;
-  }
-  input[type=checkbox]:before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 0;
-    left: 0;
-    border: 2px solid #555555;
-    border-radius: 3px;
+.yazılar-lol input{
+    width: 20px;
+    height: 20px;
     background-color: white;
-  }
-  input[type=checkbox]:checked:after {
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.yazılar-lol2 input{
+    width: 60px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.yazılar-lol3 input{
+    width: 35px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.yazılar-lol4 input{
+    width: 50px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.yazılar-lol input:checked{
+    box-shadow: inset 0px 0px 0px 5px deeppink;
+    color: #333;
     content: "";
-    display: block;
-    width: 5px;
-    height: 10px;
-    border: solid black;
-    border-width: 0 2px 2px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    position: absolute;
-    top: 2px;
-    left:6px;
-  }
+    text-align: center;
+    border-radius: 50%;
+}
+.yazılar-lol2 input:checked{
+    box-shadow: inset 0px 0px 0px 5px deeppink;
+    color: #333;
+    content: "";
+    text-align: center;
+    border-radius: 50%;
+}
+.yazılar-lol3 input:checked{
+    box-shadow: inset 0px 0px 0px 5px deeppink;
+    color: #333;
+    content: "";
+    text-align: center;
+    border-radius: 50%;
+}
+.yazılar-lol4 input:checked{
+    box-shadow: inset 0px 0px 0px 5px deeppink;
+    color: #333;
+    content: "";
+    text-align: center;
+    border-radius: 50%;
+}

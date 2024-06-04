@@ -14,6 +14,7 @@ import '../App.css';
 import resim from '../resim/quick-sigorta.jpg'
 import { Route } from 'react-router-dom';
 import Kefalet from './Kefalet';
+import Footer from './Footer';
 
 export const Kasko = () => {
  
@@ -37,26 +38,26 @@ export const Kasko = () => {
             
             <div className='side-bar-kasko'>
 
-            <DirectionsCar fontSize='large'/>Kasko
+            <DirectionsCar style={{marginRight:12,marginLeft:19}} fontSize='large'/>Kasko Sigortası
             </div> 
             <div className='side-bar-motor'>
            {/* <Link to="/Motor"> <TwoWheelerIcon fontSize='large'/>MotorSiklet Trafik Sigortası</Link> */}
            <a href="/Motor"><TwoWheelerIcon fontSize='large' style={{marginRight:12,marginLeft:19}}/> Motorsiklet Trafik Sigortası</a>
           </div>
             <div className='side-bar-saglık'>
-        <a  href='/Saglık'><LocalHospital fontSize='large'  style={{marginRight:8,marginLeft:19}}/>Tamamlayıcı Sağlık Sigortası</a> 
+        <a  href='/police-olustur'><LocalHospital fontSize='large'  style={{marginRight:8,marginLeft:19}}/>Tamamlayıcı Sağlık Sigortası</a> 
           </div>
           <div className='side-bar-dask'>
-            <AddHomeIcon fontSize='large'style={{marginRight:8}} /><span>Dask Koruma Sigortası</span>
+            <AddHomeIcon fontSize='large'style={{marginRight:8}} />Dask Koruma Sigortası
           </div>
           <div className='side-bar-seyahat'>
           <AirplanemodeActiveIcon fontSize='large' style={{marginRight:8}}/>Seyahat Sağlık Sigortası
           </div>
           <div className='side-bar-hekim'>
-          <HeartBrokenIcon fontSize='large'/>Zorunlu Hekim Sorumluluk
+          <HeartBrokenIcon style={{marginLeft:12}} fontSize='large'/>Zorunlu Hekim Sorumluluk
           </div>
           <div className='side-bar-kimlik'>
-            <PermIdentityIcon fontSize='large'/>Q Kimlik Okuma Sigortası
+            <PermIdentityIcon  fontSize='large'/>Q Kimlik Okuma Sigortası
           </div>
          
           </div>
@@ -79,6 +80,7 @@ export const Kasko = () => {
         <button className='orta-btn'>FİYATI GÖR</button>
         
         </div>
+        <Footer/>
        
       </div>
   )

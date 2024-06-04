@@ -8,16 +8,40 @@
     font-size: 31px;
     color: white;
     font-weight: 500;
+    padding: 5px;
+    list-style-type: none;
+}
+.footer-byk2{
+    font-size: 31px;
+    color: white;
+    font-weight: 500;
+    padding: 5px;
+    margin-left: 20px;
     list-style-type: none;
 }
 .footer-yazı{
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
+    letter-spacing: 0.4px;
     list-style-type: none;
    
     
 }
-ul {
+
+ .alt-bar ul {
     list-style: none;
+    padding: unset;
+    margin: unset;
+  }
+  
+ .alt-bar li {
+    font-weight: 300;
+    padding: 5px;
+    transition: all linear 0.3s;
+  }
+  
+ .alt-bar li:hover {
+    cursor: pointer;
+    color: #fff;
   }

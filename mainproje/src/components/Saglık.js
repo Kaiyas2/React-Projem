@@ -1,18 +1,69 @@
-import React from 'react'
+import React, { useContext, useState } from 'react'
 import saglıkresim from '../resim/content-2343-ea7ea781-e31f-4adc-ae1d-537b0d37b95a_960x720.jpg';
 import '../Styles/Saglık.css';
+import Footer from './Footer';
+import * as Yup from 'yup';
+import { useFormik } from 'formik';
+import { useCustomer } from './CustomerContext';
 
-export const Saglık = () => {
+
+
+
+
+export const Saglık = ({onNext}) => {
+  const {setActiveStep}=useCustomer();
+  const { saglikData, setsaglikData } = useCustomer();
+
+  const validationSchema = Yup.object({
+    customerGender: Yup.string().required('Cinsiyet Seçimi Zorunludur.'),
+    customerFamilyMember: Yup.string().required('Kişi Seçimi Zorunludur.'),
+    customer_city: Yup.string().required('Şehir Seçimi Zorunludur'),
+    customer_age: Yup.number().required("Yaş girmek zorunludur!").integer("Lütfen Geçerli Bir Yaş giriniz!"),
+  });
+
+
+
+
+  const formik = useFormik({
+    validationSchema,
+    initialValues: {
+      customerGender: '',
+      customerFamilyMember: '',
+      customer_city: '',
+      customer_age: ''
+    },
+  });
+  const handleSaveAndContinue = () => {
+  
+    if (
+      !formik.values.customerGender ||
+      !formik.values.customerFamilyMember ||
+      !formik.values.customer_city ||
+      !formik.values.customer_age
+    ) {
+      alert("Lütfen tüm alanları doldurun.");
+      return; 
+    }
+  
+    onNext();
+    setActiveStep(activeStep => activeStep + 1);
+    setsaglikData(formik.values);
+    console.log(formik.values);
+  };
+
+
+
+
   return (
     <div>
+
         <div className='genel-bos'>
         <div className='saglık-yazı'>
             <label><h1>Quick</h1></label>
             <label>Tamamlayıcı Sağlık Sigortası</label>
             <p className='saglık-yazı'>Şehrin en iyi hastanesi bana yeter</p>
             <p className='saglık-yazı'>Farkı Quick öder.</p>
-            
-        <div className='saglık-btn-genel'>
+            <div className='saglık-btn-genel'>
         <button className='saglık-btn'>Avantajlar</button>
         <button className='saglık-btn2'>Ek Hizmetler</button>
         <button className='saglık-btn3'>Teminatlar</button>
@@ -20,282 +71,357 @@ export const Saglık = () => {
         </div>
         </div>
         </div>
-        <div className='saglık-input'>
+         <form className='saglık-lol2' onSubmit={formik.handleSubmit}>
+            <div className='saglık-input'>
             <label className='saglık-lol'>Cinsiyet</label>
-             <select >
-            <option value="">Seçiniz</option>
-            <option value="01">Erkek</option>
-            <option value="02">Kadın</option>
+            <div className='saglık-family-lol'>
+            <select
+               id="customerGender"
+              name="customerGender"
+             onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+                   value={formik.values.customerGender}
+                                                          >                           
+                       <option value="">Seçiniz</option>
+                        <option value="Kadın">Kadın</option>
+                          <option value="Erkek">Erkek</option>
+
+
+       </select>
+       {formik.touched.customerGender && formik.errors.customerGender ? (
+              <div>{formik.errors.customerGender}</div>
+             
+            ) : null}
+             </div>
+
+      
+             
+            <label className='saglık-lol3'>Aile Üyesi Ekleyiniz</label>
+            <div className='saglık-family-lol'>
             
-        </select>
-        <label className='saglık-lol'>Aile Üyesi Ekleyiniz</label>
-        <select>
-            <option value="">Seçiniz</option>
-            <option value="01"> <label>Kendim</label></option>
-            <option value="02"> <label>Eşim</label></option>
-            <option value="03"> <label>Kızım</label></option>
-            <option value="04"> <label>Oğlum</label></option>
-           
-        </select>
-        <label className='saglık-lol'>Yaşınız</label>
-        <input className='saglık-lol-yas' type='number'/>
-        <label className='saglık-lol'>Şehir</label>
-        <select>
+            <select
+              id="customerFamilyMember"
+              name="customerFamilyMember"
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              value={formik.values.customerFamilyMember}
+
+              
+            >
+              <option value="">Seçiniz</option>
+              <option value="Kendisi">Kendisi</option>
+              <option value="Eşim">Eşim</option>
+              <option value="Kızım">Kızım</option>
+              <option value="Oğlum">Oğlum</option>
+            </select>
+            {formik.touched.customerFamilyMember && formik.errors.customerFamilyMember ? (
+              <div>{formik.errors.customerFamilyMember}</div>
+            ) : null}
+            </div>
+
+            <label className='saglık-lol'>Şehir</label>
+            <div className='saglık-family-lol'> 
+        <select
+            id="customer_city"
+            name="customer_city"
+            onChange={formik.handleChange}
+            onBlur={formik.handleBlur}
+            value={formik.values.customer_city}>
         <option value="">Seçiniz</option>
                                         
-                                        <option value="1">ADANA</option>
+                                        <option value="ADANA">ADANA</option>
                                     
                                     
-                                        <option value="2">ADIYAMAN</option>
+                                        <option value="ADIYAMAN">ADIYAMAN</option>
                                     
                                     
-                                        <option value="3">AFYONKARAHİSAR</option>
+                                        <option value="AFYONKARAHİSAR">AFYONKARAHİSAR</option>
                                     
                                     
-                                        <option value="4">AĞRI</option>
+                                        <option value="AĞRI">AĞRI</option>
                                     
                                     
-                                        <option value="5">AMASYA</option>
+                                        <option value="AMASYA">AMASYA</option>
                                     
                                     
-                                        <option value="6">ANKARA</option>
+                                        <option value="ANKARA">ANKARA</option>
                                     
                                     
-                                        <option value="7">ANTALYA</option>
+                                        <option value="ANTALYA">ANTALYA</option>
                                     
                                     
-                                        <option value="8">ARTVİN</option>
+                                        <option value="ARTVİN">ARTVİN</option>
                                     
                                     
-                                        <option value="9">AYDIN</option>
+                                        <option value="AYDIN">AYDIN</option>
                                     
                                     
-                                        <option value="10">BALIKESİR</option>
+                                        <option value="BALIKESİR">BALIKESİR</option>
                                     
                                     
-                                        <option value="11">BİLECİK</option>
+                                        <option value="BİLECİK">BİLECİK</option>
                                     
                                     
-                                        <option value="12">BİNGÖL</option>
+                                        <option value="BİNGÖL">BİNGÖL</option>
                                     
                                     
-                                        <option value="13">BİTLİS</option>
+                                        <option value="BİTLİS">BİTLİS</option>
                                     
                                     
-                                        <option value="14">BOLU</option>
+                                        <option value="BOLU">BOLU</option>
                                     
                                     
-                                        <option value="15">BURDUR</option>
+                                        <option value="BURDUR">BURDUR</option>
                                     
                                     
-                                        <option value="16">BURSA</option>
+                                        <option value="BURSA">BURSA</option>
                                     
                                     
-                                        <option value="17">ÇANAKKALE</option>
+                                        <option value="ÇANAKKALE">ÇANAKKALE</option>
                                     
                                     
-                                        <option value="18">ÇANKIRI</option>
+                                        <option value="ÇANKIRI">ÇANKIRI</option>
                                     
                                     
-                                        <option value="19">ÇORUM</option>
+                                        <option value="ÇORUM">ÇORUM</option>
                                     
                                     
-                                        <option value="20">DENİZLİ</option>
+                                        <option value="DENİZLİ">DENİZLİ</option>
                                     
                                     
-                                        <option value="21">DİYARBAKIR</option>
+                                        <option value="DİYARBAKIR">DİYARBAKIR</option>
                                     
                                     
-                                        <option value="22">EDİRNE</option>
+                                        <option value="EDİRNE">EDİRNE</option>
                                     
                                     
-                                        <option value="23">ELAZIĞ</option>
+                                        <option value="ELAZIĞ">ELAZIĞ</option>
                                     
                                     
-                                        <option value="24">ERZİNCAN</option>
+                                        <option value="ERZİNCAN">ERZİNCAN</option>
                                     
                                     
-                                        <option value="25">ERZURUM</option>
+                                        <option value="ERZURUM">ERZURUM</option>
                                     
                                     
-                                        <option value="26">ESKİŞEHİR</option>
+                                        <option value="ESKİŞEHİR">ESKİŞEHİR</option>
                                     
                                     
-                                        <option value="27">GAZİANTEP</option>
+                                        <option value="GAZİANTEP">GAZİANTEP</option>
                                     
                                     
-                                        <option value="28">GİRESUN</option>
+                                        <option value="GİRESUN">GİRESUN</option>
                                     
                                     
-                                        <option value="29">GÜMÜŞHANE</option>
+                                        <option value="GÜMÜŞHANE">GÜMÜŞHANE</option>
                                     
                                     
-                                        <option value="30">HAKKARİ</option>
+                                        <option value="HAKKARİ">HAKKARİ</option>
                                     
                                     
-                                        <option value="31">HATAY</option>
+                                        <option value="HATAY">HATAY</option>
                                     
                                     
-                                        <option value="32">ISPARTA</option>
+                                        <option value="ISPARTA">ISPARTA</option>
                                     
                                     
-                                        <option value="33">MERSİN</option>
+                                        <option value="MERSİN">MERSİN</option>
                                     
                                     
-                                        <option value="34">İSTANBUL</option>
+                                        <option value="İSTANBUL">İSTANBUL</option>
                                     
                                     
-                                        <option value="35">İZMİR</option>
+                                        <option value="İZMİR">İZMİR</option>
                                     
                                     
-                                        <option value="36">KARS</option>
+                                        <option value="KARS">KARS</option>
                                     
                                     
-                                        <option value="37">KASTAMONU</option>
+                                        <option value="KASTAMONU">KASTAMONU</option>
                                     
                                     
-                                        <option value="38">KAYSERİ</option>
+                                        <option value="KAYSERİ">KAYSERİ</option>
                                     
                                     
-                                        <option value="39">KIRKLARELİ</option>
+                                        <option value="KIRKLARELİ">KIRKLARELİ</option>
                                     
                                     
-                                        <option value="40">KIRŞEHİR</option>
+                                        <option value="KIRŞEHİR">KIRŞEHİR</option>
                                     
                                     
-                                        <option value="41">KOCAELİ</option>
+                                        <option value="KOCAELİ">KOCAELİ</option>
                                     
                                     
-                                        <option value="42">KONYA</option>
+                                        <option value="KONYA">KONYA</option>
                                     
                                     
-                                        <option value="43">KÜTAHYA</option>
+                                        <option value="KÜTAHYA">KÜTAHYA</option>
                                     
                                     
-                                        <option value="44">MALATYA</option>
+                                        <option value="MALATYA">MALATYA</option>
                                     
                                     
-                                        <option value="45">MANİSA</option>
+                                        <option value="MANİSA">MANİSA</option>
                                     
                                     
-                                        <option value="46">KAHRAMANMARAŞ</option>
+                                        <option value="KAHRAMANMARAŞ">KAHRAMANMARAŞ</option>
                                     
                                     
-                                        <option value="47">MARDİN</option>
+                                        <option value="MARDİN">MARDİN</option>
                                     
                                     
-                                        <option value="48">MUĞLA</option>
+                                        <option value="MUĞLA">MUĞLA</option>
                                     
                                     
-                                        <option value="49">MUŞ</option>
+                                        <option value="MUŞ">MUŞ</option>
                                     
                                     
-                                        <option value="50">NEVŞEHİR</option>
+                                        <option value="NEVŞEHİR">NEVŞEHİR</option>
                                     
                                     
-                                        <option value="51">NİĞDE</option>
+                                        <option value="NİĞDE">NİĞDE</option>
                                     
                                     
-                                        <option value="52">ORDU</option>
+                                        <option value="ORDU">ORDU</option>
                                     
                                     
-                                        <option value="53">RİZE</option>
+                                        <option value="RİZE">RİZE</option>
                                     
                                     
-                                        <option value="54">SAKARYA</option>
+                                        <option value="SAKARYA">SAKARYA</option>
                                     
                                     
-                                        <option value="55">SAMSUN</option>
+                                        <option value="SAMSUN">SAMSUN</option>
                                     
                                     
-                                        <option value="56">SİİRT</option>
+                                        <option value="SİİRT">SİİRT</option>
                                     
                                     
-                                        <option value="57">SİNOP</option>
+                                        <option value="SİNOP">SİNOP</option>
                                     
                                     
-                                        <option value="58">SİVAS</option>
+                                        <option value="SİVAS">SİVAS</option>
                                     
                                     
-                                        <option value="59">TEKİRDAĞ</option>
+                                        <option value="TEKİRDAĞ">TEKİRDAĞ</option>
                                     
                                     
-                                        <option value="60">TOKAT</option>
+                                        <option value="TOKAT">TOKAT</option>
                                     
                                     
-                                        <option value="61">TRABZON</option>
+                                        <option value="TRABZON">TRABZON</option>
                                     
                                     
-                                        <option value="62">TUNCELİ</option>
+                                        <option value="TUNCELİ">TUNCELİ</option>
                                     
                                     
-                                        <option value="63">ŞANLIURFA</option>
+                                        <option value="ŞANLIURFA">ŞANLIURFA</option>
                                     
                                     
-                                        <option value="64">UŞAK</option>
+                                        <option value="UŞAK">UŞAK</option>
                                     
                                     
-                                        <option value="65">VAN</option>
+                                        <option value="VAN">VAN</option>
                                     
                                     
-                                        <option value="66">YOZGAT</option>
+                                        <option value="YOZGAT">YOZGAT</option>
                                     
                                     
-                                        <option value="67">ZONGULDAK</option>
+                                        <option value="ZONGULDAK">ZONGULDAK</option>
                                     
                                     
-                                        <option value="68">AKSARAY</option>
+                                        <option value="AKSARAY">AKSARAY</option>
                                     
                                     
-                                        <option value="69">BAYBURT</option>
+                                        <option value="BAYBURT">BAYBURT</option>
                                     
                                     
-                                        <option value="70">KARAMAN</option>
+                                        <option value="KARAMAN">KARAMAN</option>
                                     
                                     
-                                        <option value="71">KIRIKKALE</option>
+                                        <option value="KIRIKKALE">KIRIKKALE</option>
                                     
                                     
-                                        <option value="72">BATMAN</option>
+                                        <option value="BATMAN">BATMAN</option>
                                     
                                     
-                                        <option value="73">ŞIRNAK</option>
+                                        <option value="ŞIRNAK">ŞIRNAK</option>
                                     
                                     
-                                        <option value="74">BARTIN</option>
+                                        <option value="BARTIN">BARTIN</option>
                                     
                                     
-                                        <option value="75">ARDAHAN</option>
+                                        <option value="ARDAHAN">ARDAHAN</option>
                                     
                                     
-                                        <option value="76">IĞDIR</option>
+                                        <option value="IĞDIR">IĞDIR</option>
                                     
                                     
-                                        <option value="77">YALOVA</option>
+                                        <option value="YALOVA">YALOVA</option>
                                     
                                     
-                                        <option value="78">KARABÜK</option>
+                                        <option value="KARABÜK">KARABÜK</option>
                                     
                                     
-                                        <option value="79">KİLİS</option>
+                                        <option value="KİLİS">KİLİS</option>
                                     
                                     
-                                        <option value="80">OSMANİYE</option>
+                                        <option value="OSMANİYE">OSMANİYE</option>
                                     
                                     
-                                        <option value="81">DÜZCE</option>
+                                        <option value="DÜZCE">DÜZCE</option>
                                     
                            
         </select>
-        <button className='saglık-fiyat-btn'>Fiyatı Gör</button>
-         </div>
+        {formik.touched.customer_city && formik.errors.customer_city ? (
+              <div>{formik.errors.customer_city}</div>
+            ) : null}
+            </div>
+                    <label className='saglık-lol'>Yaşınız</label>
+            <div className='saglık-input'>
+            
+            <div className='saglık-family-lol'>
+            <input
+              type="number"
+              id="customer_age"
+              name="customer_age"
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              value={formik.values.customer_age}
+              className='saglık-lol-input'
+            />
+            {formik.touched.customer_age && formik.errors.customer_age ? (
+              <div>{formik.errors.customer_age}</div>
+            ) : null}
+            </div>
+    <button  onClick={handleSaveAndContinue}  className='saglık-fiyat-btn'> Sonraki İşlem </button>
+               
+       
+            </div> 
+           
+            </div>
+    
+
+      
+        </form> 
+      
+       
+     
+      
+      
+
+         
         
        
        
         <div className='kücük-yan-resim'>
-            <img src={saglıkresim} style={{width:450,height:450}}/>
+            <img src={saglıkresim} style={{width:450,height:420}}/>
             
         </div>
+        <Footer/>
+       
     </div>
   )
+  
 }
+

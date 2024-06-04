@@ -25,7 +25,7 @@ function Footer() {
             </li>
           </ul>
           <ul>
-            <label className='footer-byk'>Ürünler</label>
+            <label className='footer-byk2'>Ürünler</label>
             <li>
              <label className='footer-yazı'>Zorunlu Trafik Sigortası</label>
             </li>

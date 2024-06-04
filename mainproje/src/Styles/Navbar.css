@@ -16,6 +16,7 @@
 .topnav .pink{
     color: deeppink;
     text-decoration: none;
+    font-weight: bold;
    
 }
 .topnav .pink:hover{
@@ -28,25 +29,18 @@
 }
 .topnav .links{
 display: flex;
-padding: 5px 10px;
 color: black;
 text-decoration: none;
 list-style-type: none;
+margin: auto;
 
-}
-.topnav .links:hover{
-    color: black;
-   
-
-}
-.topnav .links:visited{
-    color: black;
 }
 .topnav .links1{
     display: block;
     color: black;
     padding: 5px 10px;
 text-decoration: none;
+font-weight: bold;
 
 }
 .topnav .links2{
@@ -55,6 +49,7 @@ text-decoration: none;
     color: black;
     display: block;
     text-decoration: none;
+    font-weight: bold;
     
 }
 .topnav .links3{
@@ -62,16 +57,14 @@ text-decoration: none;
     display: block;
     color: black;
     text-decoration: none;
+    font-weight: bold;
 }
 .topnav .links4{
     padding: 5px 10px;
     color: black;
     display: block;
     text-decoration: none;
-}
-.topnav .links4:hover{
-    background-color: darkgrey;
-    opacity: 35%;
+    font-weight: bold;
 }
 
 .buton{
@@ -154,25 +147,5 @@ header {
     cursor: pointer;
   }
   
-  ul {
-    list-style: none;
-    padding: unset;
-    margin: unset;
-  }
+
   
-  li {
-    padding: 14px;
-    transition: all linear 0.3s;
-  }
-  
-  li:hover {
-    background: gray;
-    cursor: pointer;
-    color: #fff;
-  }
-  
-  .dropdown-menu {
-    background: #fff;
-    box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
-    transition: all linear 0.3s;
-  }

@@ -1,0 +1,171 @@
+.sa4{
+  background-color: #EFF0FF;
+}
+
+
+.step4-orta-yazi{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 50%;
+
+}
+.step4-orta-yazi span{
+    font-size: 26px;
+    color: deeppink;
+    font-weight: bold;
+
+}
+
+.step4-orta-yazi label{
+    font-weight: 300;
+}
+
+.buyuk-kutu{
+    margin-left: 9.5%;
+    height: 20%;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.ic-input {
+    width: 1.2em;
+    height: 1.2em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.ic-input:checked {
+    
+    box-shadow: inset 0px 0px 0px 5px deeppink;
+    color: #333;
+    content: "";
+    text-align: center;
+    border-radius: 50%;
+  }
+  .step4-btn{
+    border: none;
+    background-color: #FFFF;
+    margin-top: 5%;
+    margin-left: 9.5%;
+    width: 40%;
+    height: 70px;
+    cursor: pointer;
+    letter-spacing: .01em;
+    position: relative;
+    transition: color .1s linear 0s,background-color .1s linear 0s,opacity .2s linear 0s!important;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+  }
+  .ic-kutu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    height: 20%;
+    
+
+  }
+  .ic-kutu2{
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid black;
+    width: auto;
+    height: 150px;
+  }
+  .step4-table td {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0;
+  }
+ .beyaz{
+    color: white;
+ }
+ .step4-table{
+  border-collapse: collapse;
+ }
+
+ .step4-table label{
+    display: block;
+     padding: 1em;
+    font-weight: 300;
+ }
+ .kutu-alt{
+  display: flex;
+  flex-direction: column;
+  margin-left: 18%;
+ }
+ .kutu-alt label{
+  font-size: 18px;
+  font-weight: 300;
+
+ }
+ .kutu-alt-2{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height:auto;
+ }
+ .kutu-alt-check-sol{
+  margin-left: 20%;
+  width: 1.2em;
+  height: 1.2em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+ }
+ .kutu-alt-check-sag{
+  margin-left: 28%;
+  width: 1.2em;
+  height: 1.2em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+ }
+.step4-orta-yazi2{
+  display: flex;
+  flex-direction: column;
+  margin-left: 9.5%;
+  width: 50%;
+}
+.step4-orta-yazi2 span{
+  font-size: 24px;
+  font-weight: bold;
+  color: deeppink;
+
+}
+.step4-orta-yazi3{
+  display: flex;
+  flex-direction: column;
+  margin-left: 9.5%;
+  width: 50%;
+}
+.step4-orta-yazi3 span{
+  font-size: 24px;
+  font-weight: bold;
+  color: deeppink;
+
+}
+.text-alan{
+  border-radius: 7px;
+  outline: none;
+  height: 30px;
+}

@@ -30,15 +30,16 @@ export const Inform
         <div className='textler'>
         <input className='textler' type='text' placeholder='Plaka'/>
         <input className='textler2' type='number' placeholder='TCKN/YKN/VKN'/>
-        <input className='textler3' type='text' placeholder='Email/Cep tel'/></div>
+        <input className='textler3' type='text' placeholder='Email/Cep tel'/>
+        </div>
         <div className='yazılar-lol'>
-        <input type='checkbox'/>Plakam yok</div>
-        <div className='yazılar-lol'>
-        <input type='checkbox'/><p>Gizlilik Politikasını, Kullanıcı Sözleşmesini, Poliçe Bilgilendirme Formunu okudum ve onaylıyorum.</p></div>
-        <div className='yazılar-lol'>
-        <input type='checkbox'/><p>KVKK Aydınlatma Metni ni okudum ve onaylıyorum.</p></div>
-        <div className='yazılar-lol'>
-        <input type='checkbox'/><p>Açık Rıza Metni kapsamında kişisel verilerimin işlenmesine rıza gösteriyorum.</p></div>
+        <input  type='checkbox'/>Plakam yok</div>
+        <div className='yazılar-lol2'>
+        <input   type='checkbox'/><p>Gizlilik Politikasını, Kullanıcı Sözleşmesini, Poliçe Bilgilendirme Formunu okudum ve onaylıyorum.</p></div>
+        <div className='yazılar-lol3'>
+        <input   type='checkbox'/><p>KVKK Aydınlatma Metni ni okudum ve onaylıyorum.</p></div>
+        <div className='yazılar-lol4'>
+        <input  type='checkbox'/><p>Açık Rıza Metni kapsamında kişisel verilerimin işlenmesine rıza gösteriyorum.</p></div>
         <button className='orta-btn'>FİYATI GÖR</button>
       </div>
 

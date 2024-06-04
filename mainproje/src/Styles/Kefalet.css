@@ -37,7 +37,7 @@ p{
     border-radius: 10px;
     align-items: center;
     width: 25%;
-    height: 50%;
+    height: auto;
     background-color: white;
 }
 .sag-bar-btn1{

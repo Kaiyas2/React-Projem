@@ -30,19 +30,19 @@ export const Form = () => {
         <div className='form'>
             
         <div className='ust-kasko'>
-       <Link to=""> <DirectionsCar/>Kasko</Link>
+       <Link to="">Kasko</Link>
         </div>
         <div className='ust-air'>
-        <Link to="/"> <AirplanemodeActiveIcon/>Seyahat Sağlık</Link>
+        <Link to="/"> Seyahat Sağlık</Link>
         </div>
             <div className='ust-host'>
-            <Link to="/">    <LocalHospital/>Tanımlayıcı Sağlık Sigortası</Link>
+            <Link to="/">   Tanımlayıcı Sağlık Sigortası</Link>
             </div>
             <div className='ust-home'>
-            <Link to="/">    <HomeIcon/>Konut Sigortası</Link> 
+            <Link to="/">  Konut Sigortası</Link> 
             </div>
             <div className='ust-dask'>
-              <Link to="/">  <AddHomeIcon/>Dask</Link>
+              <Link to="/"> Dask</Link>
                 </div>
                 <div/>
            

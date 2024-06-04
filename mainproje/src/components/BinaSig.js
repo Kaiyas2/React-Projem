@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/Bina.css';
+import HeartBrokenIcon from '@mui/icons-material/HeartBroken';
 
 
 function BinaSig() {
@@ -24,6 +25,7 @@ kaynak sağlamak açısından önemli bir fonksiyona sahip Bina Tamamlama Sigort
         <label>Quick Sigorta Güvencesiyle Bina Tamamlama Sigortası</label>
         <button className='bina-btn'>Hemen Başvur</button>
     </div>
+   
     </div>
   )
 }

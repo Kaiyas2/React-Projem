@@ -1,0 +1,207 @@
+.step5-teklif {
+    color: deeppink;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.step5-sigortalı span{
+    color: deeppink;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.step5-bos{
+    margin-top: 5%;
+}
+.ic-network-ayrı{
+    margin-left: 5%!important;
+}
+.step5-table1{
+    margin-left: 13%;
+    width: 40%;
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 6px;
+    font-weight: 300;
+}
+.step5-table-pembe{
+    background-color: deeppink;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    border: none;
+
+}
+.step5-table2-ust td{
+    border: 1px solid #DEE2E6;
+    border-radius: 6px;
+    padding: 5px;
+
+}
+.step5-table2-ust{
+    background-color: #EFF0FF;
+}
+.step5-table2 td label{
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.step5-table2-orta td{
+    border: 1px solid #DEE2E6;
+    border-radius: 6px;
+    text-align: center;
+    
+}
+.step5-table2 {
+    background-color: white;
+    width: 40%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin-left: 13%;
+    margin-top: 2%;
+}
+.step5-table-ic-yazi{
+    background-color: #EFF0FF;
+
+}
+.step5-input{
+    width: 30%;
+    padding: 8px 7px;
+    font-size: 1rem;
+    margin: 5px 0px;
+    border-radius: 9px;
+    overflow: hidden;
+    outline: none;
+    border:none;
+}
+.step5-odeme{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+}
+.step5-odeme label{
+    font-weight: 300;
+    font-size: 18px;
+}
+.step5-kartno{
+    display: flex;
+    flex-direction: column;
+}
+.step5-kartsahip{
+    display: flex;
+    flex-direction: column;
+}
+.step5-skt{
+    display: flex;
+    flex-direction: column;
+}
+.step5-cvv{
+    display: flex;
+    flex-direction: column;
+}
+.step5-sigortalı2{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 3%;
+    color: deeppink;
+    font-size: 20px;
+    font-weight: bold;
+}
+.step5-sag-bar{
+    width: 30%;
+    position: absolute;
+    border-radius: 17px;
+    right: 4%;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    border-radius: 7px!important;
+}
+.step5-sag-bar-alt{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 7px;
+    font-weight: 300;
+    height: 100vh;
+}
+.step5-sag1{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.step5-sag2{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.step5-sag3{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.step5-sag4{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    margin-right: 20px;
+}
+.step5-sag-bar-paket{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    color: #666666!important;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    border-radius: 10px;
+    height: 100px;
+    width: 80%;
+    background-color: #e8eaff;
+}
+.step5-sag-bar-paket label{
+    margin-left: 20px;
+}
+.step5-button{
+    margin-top: 20px;
+    background-color: #44bd32;
+    width: 70%;
+    margin-left: 10%;
+    border-radius: 10px;
+
+}
+.step5-btn-alt{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.step5-button2{
+    margin-top: 20px;
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 40px;
+
+}
+.step5-button2:hover{
+    background-color: red;
+    color: white;
+    transition: background-color 200ms, color 200ms, border-color 200ms;
+
+}
+.step5-resim{
+    width: 100px;
+    height: 15%;
+    position: absolute;
+    right: 45%;
+    top: 170%;
+    background-color: transparent;
+}
