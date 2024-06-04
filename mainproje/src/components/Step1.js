@@ -223,10 +223,10 @@ function Step1({ onNext }) {
       </div>
       <div className='sa-sag-bar'>
         <div className='sa-sag-bar-ust'>
-          <label><span className='sa-span'>Quick Tamamlayıcı Sağlık</span> Sigortası</label>
+          <label><span className='sa-span'>Kaiya Tamamlayıcı Sağlık</span> Sigortası</label>
         </div>
         <div className='sa-sag-bar-alt'>
-          <label className='sa-sag-bar-alt-yazi'>Quick Tamamlayıcı Sağlık Sigortası nasıl alınır?</label>
+          <label className='sa-sag-bar-alt-yazi'>Kaiya Tamamlayıcı Sağlık Sigortası nasıl alınır?</label>
           <ul>
             <li>Sigortalı bilgileri girilir.</li>
             <li>İletişim bilgileri girilir.</li>

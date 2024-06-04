@@ -59,10 +59,10 @@ export const Saglık = ({onNext}) => {
 
         <div className='genel-bos'>
         <div className='saglık-yazı'>
-            <label><h1>Quick</h1></label>
+            <label><h1>Kaiya</h1></label>
             <label>Tamamlayıcı Sağlık Sigortası</label>
             <p className='saglık-yazı'>Şehrin en iyi hastanesi bana yeter</p>
-            <p className='saglık-yazı'>Farkı Quick öder.</p>
+            <p className='saglık-yazı'>Farkı Kaiya öder.</p>
             <div className='saglık-btn-genel'>
         <button className='saglık-btn'>Avantajlar</button>
         <button className='saglık-btn2'>Ek Hizmetler</button>

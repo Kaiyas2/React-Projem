@@ -7,13 +7,15 @@ import CallIcon from '@mui/icons-material/Call';
 import SearchIcon from '@mui/icons-material/Search';
 import MenuIcon from '@mui/icons-material/Menu';
 import { WhatsApp } from '@mui/icons-material';
+
+import logo from '../resim/logo.jpg'
 export const Navbar = () => {
   return (
     <div>
       <div className='navbar'>
       
        <div className='topnav'>
-        <img src={kücükresim}/>
+        <img src={logo}/>
       <ul>
         <div className='links'>
         <li><a className='pink' href='#'>Anında Satın Al</a>

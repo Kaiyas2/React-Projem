@@ -10,7 +10,7 @@ function BinaSig() {
 
         </div>
     <div className='bina-yazi'>
-    <h1>Quick Sigorta Bina Tamamlama
+    <h1>Kaiya Sigorta Bina Tamamlama
 Sigortası</h1>
 <label>
     Binaların tamamlanamaması nedeniyle oluşacak mağduriyetleri önlemek,
@@ -18,11 +18,11 @@ Sigortası</h1>
 </label>
 <label>
 kaynak sağlamak açısından önemli bir fonksiyona sahip Bina Tamamlama Sigortası,
- finansal sigortaların uzmanı Quick Sigorta güvencesi ile sunulmaya başlandı!
+ finansal sigortaların uzmanı Kaiya Sigorta güvencesi ile sunulmaya başlandı!
 </label>
     </div>
     <div className='bina-sag'>
-        <label>Quick Sigorta Güvencesiyle Bina Tamamlama Sigortası</label>
+        <label>Kaiya Sigorta Güvencesiyle Bina Tamamlama Sigortası</label>
         <button className='bina-btn'>Hemen Başvur</button>
     </div>
    

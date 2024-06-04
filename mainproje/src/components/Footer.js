@@ -7,12 +7,12 @@ function Footer() {
          <footer className="alt-bar">
           <ul>
             
-              <label className='footer-byk'>Quick Sigorta</label>
+              <label className='footer-byk'>Kaiya Sigorta</label>
               <li>
-             <label className='footer-yazı'> Quick Kurumsal Web Sitesi</label>
+             <label className='footer-yazı'> Kaiya Kurumsal Web Sitesi</label>
             </li>
               <li>
-             <label className='footer-yazı'> QBLOG - Quick Blog</label>
+             <label className='footer-yazı'> QBLOG - Kaiya Blog</label>
             </li>
               <li>
              <label className='footer-yazı'> Acente Başvuru</label>
@@ -96,14 +96,14 @@ function Footer() {
           <ul>
             <label className='footer-byk'>İletişim</label>
             <li>
-             <label className='footer-yazı'>Quick Tower, İçerenköy Mah. Umut Sok. No: 10-12 Kat: 7
+             <label className='footer-yazı'>Kaiya Tower, İçerenköy Mah. Umut Sok. No: 10-12 Kat: 7
 34752 Ataşehir - İstanbul</label>
             </li>
             <li>
              <label className='footer-yazı'>0850 755 1 755</label>
             </li>
             <li>
-             <label className='footer-yazı'>info@quicksigorta.com</label>
+             <label className='footer-yazı'>info@kaiyasigorta.com</label>
             </li>
             <li>
              <label></label>
@@ -116,7 +116,7 @@ function Footer() {
             </li>
             <li>
              <label className='footer-yazı'>
-                Şirket İsmi	Quick Sigorta A.Ş. </label>
+                Şirket İsmi	Kaiya Sigorta A.Ş. </label>
             </li>
             <li>
              <label className='footer-yazı'>Vergi Dairesi	Kozyatağı V.D. </label>
@@ -131,7 +131,7 @@ function Footer() {
              <label className='footer-yazı'>Ticaret Sicil No	15195-5 </label>
             </li>
             <li>
-             <label className='footer-yazı'>Kep Adresi	quicksigorta@hs03.kep.tr
+             <label className='footer-yazı'>Kep Adresi	kaiyasigorta@ist34.kep.tr
  </label>
             </li>
           </ul>

@@ -25,7 +25,7 @@ export const Inform
       
 
       <div className='orta'>
-        <h1>Quick Trafik</h1>
+        <h1>Kaiya Trafik</h1>
         <label>Yaptırmak zorunlu,yüksek fiyat ödemek değil./</label>
         <div className='textler'>
         <input className='textler' type='text' placeholder='Plaka'/>

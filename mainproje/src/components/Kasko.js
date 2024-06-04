@@ -21,14 +21,14 @@ export const Kasko = () => {
   return (
     <div className='mainPage'>
          <div className='bar'>
-        <div className='bar-yazı'>  <span><h2>Quick Sigorta Finansal Sigorta Ürünleri</h2></span>
+        <div className='bar-yazı'>  <span><h2>Kaiya Sigorta Finansal Sigorta Ürünleri</h2></span>
 
 <p>Banka teminat mektubu yerine geçecek kefalet senedi ve KOBİ'lere alacak sigortası</p></div>
       
 <div className='bar-btn' >
    <a href='/Kefalet'> <button className='bar-btn1'>Kefalet Sigortası</button></a>
    <a href='/Bina'> <button className='bar-btn2'>Bina tamamlama Sigortası</button></a>
-    <button className='bar-btn3'>Quick Finanscım</button>
+    <button className='bar-btn3'>Kaiya Finanscım</button>
     <button className='bar-btn4'>Alacak Sigortası</button>
     <button className='bar-btn5'>Fatura Koruma Sigortası</button>
     </div>
@@ -63,7 +63,7 @@ export const Kasko = () => {
           </div>
         </form>
          <div className='orta'>
-        <h1>Quick Trafik</h1>
+        <h1>Kaiya Trafik</h1>
         <label><h3>Yaptırmak zorunlu,yüksek fiyat ödemek değil.</h3></label>
         <div className='textler'>
         <input className='textler' type='text' placeholder='Plaka'/>

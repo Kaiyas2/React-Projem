@@ -517,7 +517,7 @@ Yok
     </div></div>  */}
           <div className='step3-sag-bar'>
               <div className='step2-sag-bar-ust'>
-          <label><span>Quick Tamamlayıcı Sağlık</span> Sigortası</label></div>
+          <label><span>Kaiya Tamamlayıcı Sağlık</span> Sigortası</label></div>
           <div className='sa-sag-bar-alt'>
             <div className='step2-sigortali'>
 

@@ -77,7 +77,7 @@ function Step5({onNext}) {
 
        
         <td>
-          <label>Quick Tamamlayıcı Sağlık Sigortası</label> 
+          <label>Kaiya Tamamlayıcı Sağlık Sigortası</label> 
 
         </td>
         <td>
@@ -260,7 +260,7 @@ function Step5({onNext}) {
       </form>
       <div className='step5-sag-bar'>
               <div className='step2-sag-bar-ust'>
-          <label><span>Quick Tamamlayıcı Sağlık</span> Sigortası</label></div>
+          <label><span>Kaiya Tamamlayıcı Sağlık</span> Sigortası</label></div>
           <div className='step5-sag-bar-alt'>
             <div className='step5-sag1'>
         <input type='checkbox'id='checkbox1' className='ic-input' value={formik.values.checkbox1} onChange={formik.handleChange}/><label>Belirtilen Sağlık Beyanı ve Diğer Sigorta Şirketi Beyanı'nın tarafımca verilmiş olup, doğruluğunu kabul ve beyan ederim.</label>
