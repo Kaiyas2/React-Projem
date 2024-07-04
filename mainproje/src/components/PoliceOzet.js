@@ -1,33 +1,34 @@
 import React, { useContext, useEffect, useState } from 'react'
 import '../Styles/PoliceOzet.css';
 import { useCustomer } from './CustomerContext';
+import axios from 'axios';
 
 
 function PoliceOzet() {
 
     
     
-    const [policies, setPolicies] = useState([]);
+    const [policies, setPolicies] = useState({});
     const { selectedPaketData } = useCustomer();
     const { step4Data } = useCustomer();
+    const { customerData } = useCustomer();
+
 
 
 
     useEffect(() => {
       async function fetchData() {
-        try {
-          const response = await fetch('http://localhost:32513/api/Policies/getall');
-          if (!response.ok) {
-            throw new Error('Network response was not ok');
+          try {
+              const response = await axios.get(`http://localhost:32513/api/Policies/getbytc?customerTc=${customerData.customerTc}`);
+              if (response.data) {
+                setPolicies(response.data);
+                
+              }
+          } catch (error){
+
           }
-          const data = await response.json();
-          setPolicies(data);
-        } catch (error) {
-          console.error('Error fetching data:', error);
-        }
-      }
-  
-      fetchData();
+        }  
+        fetchData();
     }, []);
   
 
@@ -47,20 +48,19 @@ function PoliceOzet() {
                  </tr>
                
 
-        {policies.map(policy => (
-              <>
+       
                     <tr>
           <td>
          <label>Müşteri Adı:</label>   
           </td>
           <td>
-          <label className='police-ozet-ayrı'> {policies.customerName}{policy.customerName}</label> 
+          <label className='police-ozet-ayrı'> {policies.customerName}</label> 
           </td>
           <td>
              <label>Müşteri Cinsiyeti:</label>
           </td>
           <td>
-             <label className='police-ozet-ayrı'> {policies.customerGender}{policy.customerGender}</label> 
+             <label className='police-ozet-ayrı'> {policies.customerGender}</label> 
           </td>
            </tr>
            <tr>
@@ -69,13 +69,13 @@ function PoliceOzet() {
             </td>
             <td>
            
-    <label className='police-ozet-ayrı'>{policies.customerTc}{policy.customerTc}</label>
+    <label className='police-ozet-ayrı'>{policies.customerTc}</label>
             </td>
             <td>
               <label>Müşteri Doğum Tarihi:</label>
             </td>
             <td>
-            <label className='police-ozet-ayrı'>{policies.customerBirth}{policy.customerBirth}</label>
+            <label className='police-ozet-ayrı'>{policies.customerBirth}</label>
 
             </td>
            </tr>
@@ -85,14 +85,14 @@ function PoliceOzet() {
           <label>Müşteri Yaşı:</label>
          </td>
          <td>
-          <label> <label className='police-ozet-ayrı'>  {policies.customer_age}{policy.customer_age}</label></label>
+          <label> <label className='police-ozet-ayrı'>  {policies.customer_age}</label></label>
 
          </td>
          <td>
            <label>Aile Üyesi:</label>
          </td>
          <td>
-          <label>{policies.customerFamilyMember}{policy.customerFamilyMember}</label>
+          <label>{policies.customerFamilyMember}</label>
 
          </td>
            </tr>
@@ -102,13 +102,13 @@ function PoliceOzet() {
                   <label>Müşteri İletişim</label> 
                 </td>
                 <td>
-                <label className='police-ozet-ayrı'>{policies.customerMail}{policy.customerMail}</label> 
+                <label className='police-ozet-ayrı'>{policies.customerMail}</label> 
                 </td>
                 <td>
                   <label>Müşteri Numarası</label>
                 </td>
                 <td>
-                <label className='police-ozet-ayrı'>{policies.customerNumber}{policy.customerNumber}</label>
+                <label className='police-ozet-ayrı'>{policies.customerNumber}</label>
                 </td>
                 </tr>
             <tr>
@@ -117,7 +117,7 @@ function PoliceOzet() {
 
                 </td>
                 <td>
-                <label className='police-ozet-ayrı7'>{policies.customerAdress}{policy.customerAdress}</label>
+                <label className='police-ozet-ayrı7'>{policies.customerAdress}</label>
 
                 </td>
                 <td>
@@ -157,9 +157,9 @@ function PoliceOzet() {
            </tr>
          
 
-           </>
+         
 
-        ))}
+       
 
                
            
@@ -174,14 +174,14 @@ function PoliceOzet() {
 
                     </td>
                 </tr>
-                {policies.map(policy => (
-          <>
+                
+          
           <tr>
                 <td>
                     <label>Kart Numarası:</label>
                 </td>
                 <td>
-                    <label>{policies.customerCardNo}{policy.customerCardNo}  </label>         
+                    <label>{policies.customerCardNo}  </label>         
                 </td>
              </tr>
              <tr>
@@ -189,7 +189,7 @@ function PoliceOzet() {
                     <label>Kart Sahibi Ad Soyad:</label>
                 </td>
                 <td>
-                <label>{policies.customerCardName}{policy.customerCardName}  </label>         
+                <label>{policies.customerCardName}  </label>         
 
                 </td>
              </tr> 
@@ -198,7 +198,7 @@ function PoliceOzet() {
                     <label>Kart Güvenlik Numarası</label>
                 </td>
                 <td>
-                <label>{policies.cardCvv}{policy.cardCvv}  </label>         
+                <label>{policies.cardCvv}  </label>         
                 </td>
             </tr> 
             <tr>
@@ -206,7 +206,7 @@ function PoliceOzet() {
                   <label>Kart Son Kullanım Tarihi</label>
               </td>
               <td>
-              <label>{policies.cardSkt}{policy.cardSkt} </label>         
+              <label>{policies.cardSkt} </label>         
 
               </td>
             </tr>
@@ -226,8 +226,8 @@ function PoliceOzet() {
             {selectedPaketData.price}
           </td>
         </tr>     
-          </>
-        ))}
+         
+     
                
             </table>
 

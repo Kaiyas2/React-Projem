@@ -27,7 +27,8 @@ function Ornek() {
         { label: 'Teklif' }, { label: 'Beyan' }, 
         { label: 'Ödeme' }, 
         { label: 'Police Görüntüleme'}]}
-        activeStep={activeStep}  
+        activeStep={activeStep}  styleConfig={{activeBgColor:'#FF1493', completedBgColor:'#FF1493'}}
+
       />
       {activeStep === 0 && <Saglık onNext={stepartir} />}
       {activeStep === 1 && <Step1 onNext={stepartir} />}

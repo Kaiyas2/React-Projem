@@ -5,7 +5,8 @@ import '../Styles/Step2.css';
 import { useFormik } from 'formik';
 
 function Step2({ onNext }) {
-  const [data, setData] = useState(null);
+  const [customer,setCustomer]=useState({});
+  const [data, setData] = useState({});
   const { customerData } = useCustomer();
   const { setActiveStep } = useCustomer();
   const { saglikData } = useCustomer();
@@ -51,6 +52,20 @@ function Step2({ onNext }) {
     initialValues,
   });
 
+  useEffect(() => {
+    async function fetchData() {
+        try {
+            const response = await axios.get(`http://localhost:32513/api/Customers/getbytc?customerTc=${customerData.customerTc}`);
+            if (response.data) {
+              setCustomer(response.data);
+              
+            }
+        } catch (error){
+
+        }
+      }  
+      fetchData();
+  }, []);
   return (
     <div>
       <div className='sa4'>
@@ -66,11 +81,11 @@ function Step2({ onNext }) {
             
             {customerData && (
               <div className='step2-orta-div-müsteri'>
-                <label className='customer-name'> {customerData.customerName}</label> 
-                <label className='step2-kimlik2'>  {customerData.customerTc}</label>
-                <label className='step2-kimlik3'>  {saglikData.customerFamilyMember}</label>
-                <label className='step2-kimlik4'> {customerData.customerNumber}</label> 
-                <label className='step2-kimlik5'> {saglikData.customer_city} </label>
+                <label className='customer-name'> {customer.customerName}</label> 
+                <label className='step2-kimlik2'>  {customer.customerTc}</label>
+                <label className='step2-kimlik3'>  {customer.customerFamilyMember}</label>
+                <label className='step2-kimlik4'> {customer.customerNumber}</label> 
+                <label className='step2-kimlik5'> {customer.customer_city} </label>
                 <label className='step2-kimlik6'> {formik.values.customerTc} </label>
                
                 
@@ -116,7 +131,7 @@ function Step2({ onNext }) {
           </div>
           <div className='step2-sag-bar'>
             <div className='step2-sag-bar-ust'>
-              <label><span>Kaiya Tamamlayıcı Sağlık</span> Sigortası</label>
+              <label><span>Kaiya Tamamlayıcı Sağlık Sigortası</span> </label>
             </div>
             <div className='sa-sag-bar-alt'>
               <div className='step2-sigortali'>
@@ -127,7 +142,7 @@ function Step2({ onNext }) {
               </div>
               <div className='step2-adres'>
                 <span><label >Adres</label></span>
-                <label className='step2-kimlik'> {saglikData.customer_city} {customerData.customerAdress} </label>
+                <label className='step2-kimlik'> {customer.customer_city} {customer.customerAdress} </label>
               </div>
               <button onClick={onNext} className='step2-button'>Devam Et</button>
               <div className='step2-bos'></div>

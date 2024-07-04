@@ -1,161 +1,165 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\",
+  "WorkspaceRootPath": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\webapi\\controllers\\policiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\policiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\webapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\webapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\business\\concrete\\customermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\business\\concrete\\customermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\concrete\\customermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\business\\concrete\\policymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\concrete\\policymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\business\\abstract\\ipolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\abstract\\ipolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\business\\abstract\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\business\\abstract\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\abstract\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\entities\\concrete\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\entities\\concrete\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\entities\\concrete\\network.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\network.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\business\\abstract\\inetworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\abstract\\inetworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\business\\abstract\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\abstract\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\business\\concrete\\paymentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\concrete\\paymentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\business\\abstract\\icityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\abstract\\icityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\business\\concrete\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\concrete\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\entities\\concrete\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\dataaccesss\\concrete\\entityframework\\efpaymentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|solutionrelative:dataaccesss\\concrete\\entityframework\\efpaymentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\dataaccesss\\abstract\\ipaymentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|solutionrelative:dataaccesss\\abstract\\ipaymentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\dataaccesss\\abstract\\inetworkdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|solutionrelative:dataaccesss\\abstract\\inetworkdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\webapi\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\webapi\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\dataaccesss\\concrete\\entityframework\\efcitydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|solutionrelative:dataaccesss\\concrete\\entityframework\\efcitydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\dataaccesss\\concrete\\entityframework\\efcustomerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\dataaccesss\\concrete\\entityframework\\efcustomerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|solutionrelative:dataaccesss\\concrete\\entityframework\\efcustomerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\dataaccesss\\abstract\\icitydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|solutionrelative:dataaccesss\\abstract\\icitydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\dataaccesss\\concrete\\entityframework\\efpaymentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|solutionrelative:dataaccesss\\concrete\\entityframework\\efpaymentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\dataaccesss\\abstract\\icustomerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\dataaccesss\\abstract\\icustomerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|solutionrelative:dataaccesss\\abstract\\icustomerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\core\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\core\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\webapi\\controllers\\networkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\networkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\dataaccesss\\abstract\\inetworkdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|solutionrelative:dataaccesss\\abstract\\inetworkdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\core\\utilities\\results\\idataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\idataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\entities\\concrete\\cities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\cities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\entities\\concrete\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\business\\concrete\\citiesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\business\\concrete\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\concrete\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\business\\concrete\\citiesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\concrete\\citiesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\business\\abstract\\inetworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\abstract\\inetworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\entities\\concrete\\network.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\network.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\webapi\\controllers\\networkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\networkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\webapi\\controllers\\policiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\policiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\entities\\concrete\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\business\\concrete\\policymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\concrete\\policymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\business\\abstract\\ipolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\abstract\\ipolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\business\\abstract\\icityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\abstract\\icityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\business\\abstract\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\abstract\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\business\\concrete\\paymentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\concrete\\paymentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\dataaccesss\\abstract\\ipaymentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|solutionrelative:dataaccesss\\abstract\\ipaymentdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\entities\\concrete\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\webapi\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\webapi\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\dataaccesss\\concrete\\entityframework\\efcitydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|solutionrelative:dataaccesss\\concrete\\entityframework\\efcitydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\dataaccesss\\abstract\\icitydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C6C0C4D-D916-45C2-B720-505C33D45CE1}|DataAccesss\\DataAccesss.csproj|solutionrelative:dataaccesss\\abstract\\icitydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\core\\utilities\\results\\idataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\idataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\entities\\concrete\\cities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8CDCF8C-6CF9-4D31-8EC0-EAABAA2E158C}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\cities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\core\\entities\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\core\\entities\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|solutionrelative:core\\entities\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\core\\utilities\\results\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\core\\utilities\\results\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\business\\concrete\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
+      "AbsoluteMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\business\\concrete\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
       "RelativeMoniker": "D:0:0:{C814E955-BE66-497F-BE40-1F1E6D3C8FB1}|Business\\Business.csproj|solutionrelative:business\\concrete\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\core\\utilities\\results\\iresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\core\\utilities\\results\\iresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\iresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\core\\utilities\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\core\\utilities\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\webapi\\webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\webapi\\webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{9D15841B-1CB0-4B94-835A-CB97D39DB643}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\core\\utilities\\results\\errordataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\core\\utilities\\results\\errordataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\errordataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\core\\utilities\\results\\errorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\core\\utilities\\results\\errorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\errorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\sa\\mainproje\\webapi\\core\\utilities\\results\\successresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|c:\\users\\death\\onedrive\\masa\u00FCst\u00FC\\kurs deneme\\site\\react projem\\mainproje\\webapi\\core\\utilities\\results\\successresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E48C6B1-BCE8-4B73-A4E1-4F66A4129143}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\successresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -166,202 +170,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerManager.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Concrete\\CustomerManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\CustomerManager.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Concrete\\CustomerManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\CustomerManager.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAlwCQAAAADAAAA",
+              "DocumentIndex": 5,
+              "Title": "ICustomerDal.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\DataAccesss\\Abstract\\ICustomerDal.cs",
+              "RelativeDocumentMoniker": "DataAccesss\\Abstract\\ICustomerDal.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\DataAccesss\\Abstract\\ICustomerDal.cs",
+              "RelativeToolTip": "DataAccesss\\Abstract\\ICustomerDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T16:40:43.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Network.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Entities\\Concrete\\Network.cs",
-              "RelativeDocumentMoniker": "Entities\\Concrete\\Network.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Entities\\Concrete\\Network.cs",
-              "RelativeToolTip": "Entities\\Concrete\\Network.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAApwA4AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T11:47:43.641Z"
+              "WhenOpened": "2024-05-13T20:37:04.383Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Policy.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Entities\\Concrete\\Policy.cs",
-              "RelativeDocumentMoniker": "Entities\\Concrete\\Policy.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Entities\\Concrete\\Policy.cs",
-              "RelativeToolTip": "Entities\\Concrete\\Policy.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA+wB8AAAAAAAAA",
+              "Title": "IEntityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\DataAccess\\IEntityRepository.cs",
+              "RelativeDocumentMoniker": "Core\\DataAccess\\IEntityRepository.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\DataAccess\\IEntityRepository.cs",
+              "RelativeToolTip": "Core\\DataAccess\\IEntityRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T09:50:36.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IPolicyService.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Abstract\\IPolicyService.cs",
-              "RelativeDocumentMoniker": "Business\\Abstract\\IPolicyService.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Abstract\\IPolicyService.cs",
-              "RelativeToolTip": "Business\\Abstract\\IPolicyService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T06:47:29.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IPaymentService.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Abstract\\IPaymentService.cs",
-              "RelativeDocumentMoniker": "Business\\Abstract\\IPaymentService.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Abstract\\IPaymentService.cs",
-              "RelativeToolTip": "Business\\Abstract\\IPaymentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T18:06:14.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PoliciesController.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\WebApi\\Controllers\\PoliciesController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\PoliciesController.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\WebApi\\Controllers\\PoliciesController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\PoliciesController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAWwB8AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T06:56:19.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T17:58:11.839Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PolicyManager.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Concrete\\PolicyManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\PolicyManager.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Concrete\\PolicyManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\PolicyManager.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAWwDAAAAAAAAAA",
+              "Title": "EfCustomerDal.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\DataAccesss\\Concrete\\EntityFramework\\EfCustomerDal.cs",
+              "RelativeDocumentMoniker": "DataAccesss\\Concrete\\EntityFramework\\EfCustomerDal.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\DataAccesss\\Concrete\\EntityFramework\\EfCustomerDal.cs",
+              "RelativeToolTip": "DataAccesss\\Concrete\\EntityFramework\\EfCustomerDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T06:50:07.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T15:11:29.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\WebApi\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\CustomersController.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\WebApi\\Controllers\\CustomersController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\CustomersController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwB0AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T19:34:30.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ICustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Abstract\\ICustomerService.cs",
-              "RelativeDocumentMoniker": "Business\\Abstract\\ICustomerService.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Abstract\\ICustomerService.cs",
-              "RelativeToolTip": "Business\\Abstract\\ICustomerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T15:32:27.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Entities\\Concrete\\Customer.cs",
-              "RelativeDocumentMoniker": "Entities\\Concrete\\Customer.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Entities\\Concrete\\Customer.cs",
-              "RelativeToolTip": "Entities\\Concrete\\Customer.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T16:41:26.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "INetworkService.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Abstract\\INetworkService.cs",
-              "RelativeDocumentMoniker": "Business\\Abstract\\INetworkService.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Abstract\\INetworkService.cs",
-              "RelativeToolTip": "Business\\Abstract\\INetworkService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T10:01:12.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ICityService.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Abstract\\ICityService.cs",
-              "RelativeDocumentMoniker": "Business\\Abstract\\ICityService.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Abstract\\ICityService.cs",
-              "RelativeToolTip": "Business\\Abstract\\ICityService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:14:19.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PaymentManager.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Concrete\\PaymentManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\PaymentManager.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Concrete\\PaymentManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\PaymentManager.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAwwCAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T18:02:08.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "NetworkManager.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Concrete\\NetworkManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\NetworkManager.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Concrete\\NetworkManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\NetworkManager.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAswBgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T10:09:52.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IPaymentDal.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\DataAccesss\\Abstract\\IPaymentDal.cs",
-              "RelativeDocumentMoniker": "DataAccesss\\Abstract\\IPaymentDal.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\DataAccesss\\Abstract\\IPaymentDal.cs",
-              "RelativeToolTip": "DataAccesss\\Abstract\\IPaymentDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T18:02:48.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 4,
               "Title": "EfPaymentDal.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\DataAccesss\\Concrete\\EntityFramework\\EfPaymentDal.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\DataAccesss\\Concrete\\EntityFramework\\EfPaymentDal.cs",
               "RelativeDocumentMoniker": "DataAccesss\\Concrete\\EntityFramework\\EfPaymentDal.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\DataAccesss\\Concrete\\EntityFramework\\EfPaymentDal.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\DataAccesss\\Concrete\\EntityFramework\\EfPaymentDal.cs",
               "RelativeToolTip": "DataAccesss\\Concrete\\EntityFramework\\EfPaymentDal.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -369,23 +222,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Entities\\Concrete\\Payment.cs",
-              "RelativeDocumentMoniker": "Entities\\Concrete\\Payment.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Entities\\Concrete\\Payment.cs",
-              "RelativeToolTip": "Entities\\Concrete\\Payment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "DocumentIndex": 2,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Abstract\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Abstract\\ICustomerService.cs",
+              "RelativeToolTip": "Business\\Abstract\\ICustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T18:00:15.255Z"
+              "WhenOpened": "2024-05-14T15:32:27.849Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 1,
+              "Title": "CustomerManager.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Concrete\\CustomerManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\CustomerManager.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Concrete\\CustomerManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\CustomerManager.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAApwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T16:40:43.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\CustomersController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:34:30.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "INetworkDal.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\DataAccesss\\Abstract\\INetworkDal.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\DataAccesss\\Abstract\\INetworkDal.cs",
               "RelativeDocumentMoniker": "DataAccesss\\Abstract\\INetworkDal.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\DataAccesss\\Abstract\\INetworkDal.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\DataAccesss\\Abstract\\INetworkDal.cs",
               "RelativeToolTip": "DataAccesss\\Abstract\\INetworkDal.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -393,131 +271,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PaymentsController.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\WebApi\\Controllers\\PaymentsController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\PaymentsController.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\WebApi\\Controllers\\PaymentsController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\PaymentsController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBQAAAAIAAAA",
+              "DocumentIndex": 8,
+              "Title": "EfEntityRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "RelativeToolTip": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAewB4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T18:09:58.828Z"
+              "WhenOpened": "2024-06-10T06:12:22.738Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CitiesController.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\WebApi\\Controllers\\CitiesController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\CitiesController.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\WebApi\\Controllers\\CitiesController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\CitiesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAADAAAA",
+              "DocumentIndex": 9,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\Concrete\\Customer.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Customer.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\Concrete\\Customer.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Customer.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:37:24.557Z"
+              "WhenOpened": "2024-05-27T16:41:26.58Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EfCityDal.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\DataAccesss\\Concrete\\EntityFramework\\EfCityDal.cs",
-              "RelativeDocumentMoniker": "DataAccesss\\Concrete\\EntityFramework\\EfCityDal.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\DataAccesss\\Concrete\\EntityFramework\\EfCityDal.cs",
-              "RelativeToolTip": "DataAccesss\\Concrete\\EntityFramework\\EfCityDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABPAAAA",
+              "DocumentIndex": 10,
+              "Title": "NetworkManager.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Concrete\\NetworkManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\NetworkManager.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Concrete\\NetworkManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\NetworkManager.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwCYAAABkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:11:30.111Z"
+              "WhenOpened": "2024-05-16T10:09:52.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "EfCustomerDal.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\DataAccesss\\Concrete\\EntityFramework\\EfCustomerDal.cs",
-              "RelativeDocumentMoniker": "DataAccesss\\Concrete\\EntityFramework\\EfCustomerDal.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\DataAccesss\\Concrete\\EntityFramework\\EfCustomerDal.cs",
-              "RelativeToolTip": "DataAccesss\\Concrete\\EntityFramework\\EfCustomerDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T15:11:29.712Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ICityDal.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\DataAccesss\\Abstract\\ICityDal.cs",
-              "RelativeDocumentMoniker": "DataAccesss\\Abstract\\ICityDal.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\DataAccesss\\Abstract\\ICityDal.cs",
-              "RelativeToolTip": "DataAccesss\\Abstract\\ICityDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:10:25.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ICustomerDal.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\DataAccesss\\Abstract\\ICustomerDal.cs",
-              "RelativeDocumentMoniker": "DataAccesss\\Abstract\\ICustomerDal.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\DataAccesss\\Abstract\\ICustomerDal.cs",
-              "RelativeToolTip": "DataAccesss\\Abstract\\ICustomerDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T20:37:04.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IEntityRepository.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\DataAccess\\IEntityRepository.cs",
-              "RelativeDocumentMoniker": "Core\\DataAccess\\IEntityRepository.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\DataAccess\\IEntityRepository.cs",
-              "RelativeToolTip": "Core\\DataAccess\\IEntityRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T17:58:11.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 14,
               "Title": "NetworksController.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\WebApi\\Controllers\\NetworksController.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\Controllers\\NetworksController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\NetworksController.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\WebApi\\Controllers\\NetworksController.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\Controllers\\NetworksController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\NetworksController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAywCUAAAAfAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC0AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T10:17:38.255Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IDataResult.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\Utilities\\Results\\IDataResult.cs",
-              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\IDataResult.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\Utilities\\Results\\IDataResult.cs",
-              "RelativeToolTip": "Core\\Utilities\\Results\\IDataResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T18:54:14.492Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Cities.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Entities\\Concrete\\Cities.cs",
-              "RelativeDocumentMoniker": "Entities\\Concrete\\Cities.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Entities\\Concrete\\Cities.cs",
-              "RelativeToolTip": "Entities\\Concrete\\Cities.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T11:39:53.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 11,
               "Title": "CitiesManager.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Concrete\\CitiesManager.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Concrete\\CitiesManager.cs",
               "RelativeDocumentMoniker": "Business\\Concrete\\CitiesManager.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Concrete\\CitiesManager.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Concrete\\CitiesManager.cs",
               "RelativeToolTip": "Business\\Concrete\\CitiesManager.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAMwCgAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -525,11 +331,215 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "INetworkService.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Abstract\\INetworkService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\INetworkService.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Abstract\\INetworkService.cs",
+              "RelativeToolTip": "Business\\Abstract\\INetworkService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T10:01:12.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Network.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\Concrete\\Network.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Network.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\Concrete\\Network.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Network.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T11:47:43.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PoliciesController.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\Controllers\\PoliciesController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\PoliciesController.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\Controllers\\PoliciesController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\PoliciesController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAD4vyAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T06:56:19.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PolicyManager.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Concrete\\PolicyManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\PolicyManager.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Concrete\\PolicyManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\PolicyManager.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAWwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T06:50:07.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Policy.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\Concrete\\Policy.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Policy.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\Concrete\\Policy.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Policy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:50:36.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IPolicyService.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Abstract\\IPolicyService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IPolicyService.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Abstract\\IPolicyService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IPolicyService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T06:47:29.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ICityService.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Abstract\\ICityService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\ICityService.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Abstract\\ICityService.cs",
+              "RelativeToolTip": "Business\\Abstract\\ICityService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:14:19.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Abstract\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Abstract\\IPaymentService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IPaymentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T18:06:14.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PaymentManager.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Concrete\\PaymentManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\PaymentManager.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Concrete\\PaymentManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\PaymentManager.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAwwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T18:02:08.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IPaymentDal.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\DataAccesss\\Abstract\\IPaymentDal.cs",
+              "RelativeDocumentMoniker": "DataAccesss\\Abstract\\IPaymentDal.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\DataAccesss\\Abstract\\IPaymentDal.cs",
+              "RelativeToolTip": "DataAccesss\\Abstract\\IPaymentDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T18:02:48.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\Concrete\\Payment.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Payment.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\Concrete\\Payment.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T18:00:15.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\PaymentsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T18:09:58.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CitiesController.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\Controllers\\CitiesController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\CitiesController.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\Controllers\\CitiesController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\CitiesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:37:24.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EfCityDal.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\DataAccesss\\Concrete\\EntityFramework\\EfCityDal.cs",
+              "RelativeDocumentMoniker": "DataAccesss\\Concrete\\EntityFramework\\EfCityDal.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\DataAccesss\\Concrete\\EntityFramework\\EfCityDal.cs",
+              "RelativeToolTip": "DataAccesss\\Concrete\\EntityFramework\\EfCityDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:11:30.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ICityDal.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\DataAccesss\\Abstract\\ICityDal.cs",
+              "RelativeDocumentMoniker": "DataAccesss\\Abstract\\ICityDal.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\DataAccesss\\Abstract\\ICityDal.cs",
+              "RelativeToolTip": "DataAccesss\\Abstract\\ICityDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:10:25.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IDataResult.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Utilities\\Results\\IDataResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\IDataResult.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Utilities\\Results\\IDataResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\IDataResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:54:14.492Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 29,
+              "Title": "Cities.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\Concrete\\Cities.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Cities.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\Concrete\\Cities.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Cities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T11:39:53.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\WebApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\Program.cs",
               "RelativeToolTip": "WebApi\\Program.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -537,11 +547,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "IEntity.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\Entities\\IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Entities\\IEntity.cs",
               "RelativeDocumentMoniker": "Core\\Entities\\IEntity.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\Entities\\IEntity.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Entities\\IEntity.cs",
               "RelativeToolTip": "Core\\Entities\\IEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -549,11 +559,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "DataResult.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\Utilities\\Results\\DataResult.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Utilities\\Results\\DataResult.cs",
               "RelativeDocumentMoniker": "Core\\Utilities\\Results\\DataResult.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\Utilities\\Results\\DataResult.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Utilities\\Results\\DataResult.cs",
               "RelativeToolTip": "Core\\Utilities\\Results\\DataResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -561,22 +571,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": ".editorconfig",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Concrete\\.editorconfig",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Concrete\\.editorconfig",
               "RelativeDocumentMoniker": "Business\\Concrete\\.editorconfig",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Business\\Concrete\\.editorconfig",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Concrete\\.editorconfig",
               "RelativeToolTip": "Business\\Concrete\\.editorconfig",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-05-16T07:12:55.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "IResult.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\Utilities\\Results\\IResult.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Utilities\\Results\\IResult.cs",
               "RelativeDocumentMoniker": "Core\\Utilities\\Results\\IResult.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\Utilities\\Results\\IResult.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Utilities\\Results\\IResult.cs",
               "RelativeToolTip": "Core\\Utilities\\Results\\IResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -584,11 +594,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Result.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\Utilities\\Results\\Result.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Utilities\\Results\\Result.cs",
               "RelativeDocumentMoniker": "Core\\Utilities\\Results\\Result.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\Utilities\\Results\\Result.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Utilities\\Results\\Result.cs",
               "RelativeToolTip": "Core\\Utilities\\Results\\Result.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -596,22 +606,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "WebApi",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\WebApi\\WebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\WebApi.csproj",
               "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\WebApi\\WebApi.csproj",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\WebApi.csproj",
               "RelativeToolTip": "WebApi\\WebApi.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-05-15T06:06:52.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "ErrorDataResult.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\Utilities\\Results\\ErrorDataResult.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Utilities\\Results\\ErrorDataResult.cs",
               "RelativeDocumentMoniker": "Core\\Utilities\\Results\\ErrorDataResult.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\Utilities\\Results\\ErrorDataResult.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Utilities\\Results\\ErrorDataResult.cs",
               "RelativeToolTip": "Core\\Utilities\\Results\\ErrorDataResult.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAApwA8AAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -619,11 +629,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "ErrorResult.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\Utilities\\Results\\ErrorResult.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Utilities\\Results\\ErrorResult.cs",
               "RelativeDocumentMoniker": "Core\\Utilities\\Results\\ErrorResult.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\Utilities\\Results\\ErrorResult.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Utilities\\Results\\ErrorResult.cs",
               "RelativeToolTip": "Core\\Utilities\\Results\\ErrorResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -631,11 +641,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "SuccessResult.cs",
-              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\Utilities\\Results\\SuccessResult.cs",
+              "DocumentMoniker": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Utilities\\Results\\SuccessResult.cs",
               "RelativeDocumentMoniker": "Core\\Utilities\\Results\\SuccessResult.cs",
-              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\sa\\mainproje\\WebApi\\Core\\Utilities\\Results\\SuccessResult.cs",
+              "ToolTip": "C:\\Users\\death\\OneDrive\\Masa\u00FCst\u00FC\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Utilities\\Results\\SuccessResult.cs",
               "RelativeToolTip": "Core\\Utilities\\Results\\SuccessResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -3324,11 +3324,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\WebApi\\WebApi.csproj",
+      "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\death\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\WebApi\\obj\\",
+      "outputPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\death\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3345,8 +3345,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Business\\Business.csproj"
+            "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Business.csproj"
             }
           }
         }

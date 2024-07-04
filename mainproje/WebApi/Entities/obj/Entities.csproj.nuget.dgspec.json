@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Entities\\Entities.csproj": {}
+    "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Core\\Core.csproj": {
+    "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\death\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Core\\obj\\",
+        "outputPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\death\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Entities\\Entities.csproj": {
+    "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\death\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\death\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,8 +94,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Core\\Core.csproj"
+              "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Core.csproj"
               }
             }
           }

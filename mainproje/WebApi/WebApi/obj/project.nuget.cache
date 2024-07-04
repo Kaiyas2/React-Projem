@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h+viSEpurw2jOx8++BuaI3IPAr18ILumELnb4mnTzFQnolOpO5K23WYM5svtBk9TbtGw6Y9rXl5JYmiWOQWY4w==",
+  "dgSpecHash": "qDH7nwWdChipoVNnFlWgvoZzAshuVwfjGu8y0AMfoAUmJTmnO1q2759CDYvfuu9c5Wc2PhyIpHRfsgVo/gGNfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\death\\.nuget\\packages\\autofac\\8.0.0\\autofac.8.0.0.nupkg.sha512",
     "C:\\Users\\death\\.nuget\\packages\\autofac.extensions.dependencyinjection\\9.0.0\\autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512",

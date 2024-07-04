@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useCustomer } from './CustomerContext';
 import '../Styles/Step5.css';
 import { useFormik } from 'formik';
@@ -19,6 +19,7 @@ function Step5({onNext}) {
   const { saglikData } = useCustomer();
   const { selectedPaketData } = useCustomer();
   const { setActiveStep } = useCustomer();
+  const [existingCustomerData, setExistingCustomerData] = useState(null);
 
   
 
@@ -55,8 +56,34 @@ function Step5({onNext}) {
     ...customerData 
   };
   console.log(mergedData)
+
+  console.log("customerData.customerTc:", customerData.customerTc);
+
+  const handleTcChange = async () => {
+    try {
+      const response = await axios.get(`http://localhost:32513/api/Policies/getbytc?customerTc=${customerData.customerTc}`);
+      if (response.data) {
+        setExistingCustomerData(response.data);
+
+      
+        const confirmation = window.confirm("Zaten bir poliçeniz bulunmaktadır. Görüntülemek İster misiniz?");
+        if (confirmation) {
+          onNext();
+            setActiveStep(activeStep => activeStep + 1);
+        } else {
+          
+        }
+      } else {
+        handleSubmit();
+       
+      }
+    } catch (error) {
+      console.error('Error fetching customer data:', error);
+    }
+  };
   const handleSubmit = async () => {
     try {
+      alert("Tebrikler Artık Bir Poliçeniz Var.");
       console.log(formik.values);
       const response = await axios.post(`http://localhost:32513/api/Policies/add`, mergedData);
       console.log(response.data);
@@ -66,6 +93,23 @@ function Step5({onNext}) {
       console.error('Error posting data:', error);
     }
   };
+
+  useEffect(() => {
+    if (existingCustomerData) {
+      formik.setValues({
+        customerCardNo: existingCustomerData.customerCardNo || "",
+        customerCardName: existingCustomerData.customerCardName || "",
+        cardSkt: existingCustomerData.cardSkt || "",
+        cardCvv: existingCustomerData.cardCvv || "",
+        checkbox1: formik.values.checkbox1,
+        checkbox2: formik.values.checkbox2,
+        checkbox3: formik.values.checkbox3,
+        checkbox4: formik.values.checkbox4,
+      });
+    }
+  }, [existingCustomerData]);
+
+
 
   return (
     <div>
@@ -120,24 +164,15 @@ function Step5({onNext}) {
       <div className='step5-sigortalı'>
         <span>Sigortalı Bilgileri</span>
       </div>
-      
       <table className='step5-table2'>
         <tbody>
         <tr className='step5-table2-ust'>
           <td width="25%"><label>Sigortalı</label></td>
           <td width="25%">  <label> Yakınlık Derecesi</label> </td>
-        
-         
           <td width="25%"> <label>Risk İli</label> </td>
-         
-         
           <td width="25%">  <label>Prim</label>  </td>
-        
-          
         </tr>
-   
-            <tr className='step5-table2-orta'>
-
+          <tr className='step5-table2-orta'>
          <td width="25%"><label>{customerData.customerName}</label></td> 
          <td width="25%"><label>{saglikData.customerFamilyMember}</label></td>
          <td width="25%"><label>{saglikData.customer_city}</label></td>
@@ -153,13 +188,9 @@ function Step5({onNext}) {
            maddelerinde belirtilen koşulların karşılanması durumunda işbu poliçe dönemi dahil son üç poliçe dönemi
             sonunda değerlendirilecektir.
          </label>
-            
           </li>
          </ul>
        </td>
-       
-        
-      
       </tbody>
     
       </table>
@@ -226,24 +257,34 @@ function Step5({onNext}) {
        
          <span >Kredi Kartı Bilgileri</span>
       </div>
-      <form className='step5-odeme'>
+      <form onSubmit={handleTcChange} className='step5-odeme'>
       <div className='step5-kartno'>
         <label>Kredi Kartı Numarası</label>
-        <input type='number' value={formik.values.customerCardNo} id='customerCardNo'  onChange={formik.handleChange} className='step5-input' />
+        <input type='number'
+            value={existingCustomerData ? existingCustomerData.customerCardNo : formik.values.customerCardNo}
+            id='customerCardNo' 
+           onChange={formik.handleChange} className='step5-input' />
         {formik.errors.customerCardNo && formik.touched.customerCardNo && (
         <div><label className='error'>{formik.errors.customerCardNo}</label></div>
       )}
       </div>
       <div className='step5-kartsahip'>
         <label>Kart Sahibi Ad Soyad</label>
-        <input type='text' value={formik.values.customerCardName} id='customerCardName'  onChange={formik.handleChange}className='step5-input' />
+        <input type='text'
+            value={existingCustomerData ? existingCustomerData.customerCardName : formik.values.customerCardName}
+            id='customerCardName'
+            onChange={formik.handleChange}className='step5-input' />
         {formik.errors.customerCardName && formik.touched.customerCardName && (
         <div><label className='error'>{formik.errors.customerCardName}</label></div>
       )}
       </div>
       <div className='step5-skt'>
         <label>Son Kullanma Tarihi</label>
-        <input type='date' value={formik.values.cardSkt} id='cardSkt'  onChange={formik.handleChange} className='step5-input'/>
+        <input type='date'
+            value={existingCustomerData ? existingCustomerData.cardSkt : formik.values.cardSkt}
+            id='cardSkt'
+          onChange={formik.handleChange} 
+          className='step5-input'/>
         {formik.errors.cardSkt && formik.touched.cardSkt && (
         <div><label className='error'>{formik.errors.cardSkt}</label></div>
       )}
@@ -251,7 +292,11 @@ function Step5({onNext}) {
       </div>
       <div className='step5-cvv'>
         <label> Cvv (Güvenlik Kodu)</label>
-        <input type='number' value={formik.values.cardCvv} id='cardCvv'  onChange={formik.handleChange}className='step5-input' />
+        <input type='number'
+            value={existingCustomerData ? existingCustomerData.cardCvv : formik.values.cardCvv}
+            id='cardCvv' 
+           onChange={formik.handleChange}
+           className='step5-input' />
         {formik.errors.cardCvv && formik.touched.cardCvv && (
         <div><label className='error'>{formik.errors.cardCvv}</label></div>
       )}
@@ -297,7 +342,7 @@ function Step5({onNext}) {
        )}
       
          </div>
-         <button type='button' className='step5-button' onClick={handleSubmit}>Ödemeyi Onaylıyorum</button>
+         <button type='button' className='step5-button' onClick={handleTcChange}>Ödemeyi Onaylıyorum</button>
          <label className='step5-btn-alt'>Beyanınızın hatalı olduğunu düşünüyorsanız ya da teklifi kabul etmek istemiyorsanız aşağıdaki butona tıklayın.</label>
        <a href='/'><button type='submit' className='step5-button2'>Onaylamıyorum</button></a>
 

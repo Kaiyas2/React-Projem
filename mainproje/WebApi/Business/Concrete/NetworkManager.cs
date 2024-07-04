@@ -33,6 +33,12 @@ namespace Business.Concrete
             }
               
         }
+
+        public IDataResult<Network> GetById(int Network_Id)
+        {
+            return new SuccessDataResult<Network>(_networkdal.Get(p => p.Network_Id == Network_Id));
+        }
+
         public IDataResult<List<Network>> GetList()
         {
             return new SuccessDataResult<List<Network>>(_networkdal.GetList().ToList());

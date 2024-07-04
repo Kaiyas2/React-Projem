@@ -4,6 +4,8 @@ import resim from '../resim/istockphoto-1300273646-1024x1024.jpg';
 import { useCustomer } from './CustomerContext';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
+import axios from 'axios';
+
 
 
 
@@ -11,9 +13,16 @@ function Step3({onNext}) {
   const { setActiveStep } = useCustomer();
   const { customerData } = useCustomer();
   const { saglikData } = useCustomer();
+  const [networks, setNetworks] = useState({});
+  const [networks2, setNetworks2] = useState({});
+  const [networks3, setNetworks3] = useState({});
+  const [networks4, setNetworks4] = useState({});
+  const [networks5, setNetworks5] = useState({});
+  const [networks6, setNetworks6] = useState({});
+
   
   const [selectedCheckbox, setSelectedCheckbox] = useState(null);
-  const { setSelectedPaketData, selectedPaketData } = useCustomer();
+  const { selectedPaketData, setSelectedPaketData } = useCustomer();
 
   const handleCheckboxChange = (id, label, price) => {
     if (selectedCheckbox === id) {
@@ -35,6 +44,25 @@ function Step3({onNext}) {
     setActiveStep(activeStep => activeStep + 1);
   };
 
+  useEffect(() => {
+    const fetchNetworks = async () => {
+      try {
+        const response = await axios.get('http://localhost:32513/api/Networks/getall');
+        setNetworks(response.data[0]);
+        setNetworks2(response.data[1]);
+        setNetworks3(response.data[2]);
+        setNetworks4(response.data[3]);
+        setNetworks5(response.data[4]);
+        setNetworks6(response.data[5]);
+      
+      } catch (error) {
+        console.error('Error fetching networks:', error);
+      }
+    };
+
+    fetchNetworks();
+  }, []);
+  
 
   return (
     <div>
@@ -67,24 +95,22 @@ function Step3({onNext}) {
            <label className='buyuk-kutular-ist'>Türkiye Geneli</label>
            <label className='buyuk-kutular-krm'><span>507</span> Sağlık kurumu</label>
            <div className='pembe-alt-kutu'>
-            <div className='cekbox'>
-            <input
-                type="checkbox"
-                checked={selectedCheckbox === 'pembe'}         
-                 onChange={() => handleCheckboxChange('pembe','Pembe Network Ayakta Tedavi', '1,987,22TL')}
-                 id='checkbox1'
+           <div className='cekbox'>
+  <input
+    type="checkbox"
+    checked={selectedCheckbox === 'pembe'}         
+    onChange={() => handleCheckboxChange('pembe', 'Pembe Network Ayakta Tedavi', '1997,22TL')}
+    id='1'
+  />
+</div>
+  
+        
+     <label>{networks.network_Name}</label>
             
-              />
-              
-            </div>
-            
-            
-           <label>Yatarak Tedavi</label>
-            
-            
+         
            </div>
            <div className='pembe-alt-kutu-fiyat'>
-            <label>1,987,22TL</label>
+            <label>{networks.bedel}</label>
             
            </div>
            <div className='pembe-alt-kutu'>
@@ -92,18 +118,20 @@ function Step3({onNext}) {
             <input
           type="checkbox"
           checked={selectedCheckbox === 'pembe2'}         
-          onChange={() => handleCheckboxChange('pembe2','Pembe Network Yatarak Tedavi', '2000,22TL')}
-          id='checkbox2'
+          onChange={networks2.network_Id}
+          id='2'
+          value={networks.Bedel}
+
          
           />
             </div>
             
-           <label>Ayakta Tedavi</label>
+           <label>{networks2.network_Name}</label>
             
             
            </div>
            <div className='pembe-alt-kutu-fiyat'>
-            <label>1,987,23TL</label>
+            <label>{networks2.bedel}L</label>
            </div>
            
            
@@ -129,19 +157,21 @@ function Step3({onNext}) {
         
           checked={selectedCheckbox === 'yesil'}         
           onChange={() => handleCheckboxChange('yesil','Yeşil Network Ayakta Tedavi', '2000,22TL')}
-          id='checkbox3'
+          id='3'
+          value={networks.Bedel}
+
       
           />
               
               
             </div>
             
-           <label>Yatarak  Tedavi</label>
+           <label>{networks3.network_Name}</label>
             
             
            </div>
            <div className='pembe-alt-kutu-fiyat'>
-            <label>1,987,23TL</label>
+            <label>{networks3.bedel}</label>
            </div>
            <div className='pembe-alt-kutu'>
             <div className='cekbox'>
@@ -149,17 +179,19 @@ function Step3({onNext}) {
           type="checkbox"
           checked={selectedCheckbox === 'yesil2'}         
           onChange={() => handleCheckboxChange('yesil2','Yeşil Network Yatarak Tedavi', '2500,22TL')}
-          id='checkbox4'
+          id='4'
+          value={networks.Bedel}
+
         />
               
             </div>
             
-           <label>Ayakta Tedavi</label>
+           <label>{networks4.network_Name}</label>
             
             
            </div>
            <div className='pembe-alt-kutu-fiyat'>
-            <label>1,987,24TL</label>
+            <label>{networks4.bedel}</label>
            </div>
         </div>
 
@@ -181,17 +213,18 @@ function Step3({onNext}) {
             <div className='cekbox'>
             <input type='checkbox'   checked={selectedCheckbox === 'lacivert'}         
           onChange={() => handleCheckboxChange('lacivert','Lacivert Network Ayakta Tedavi', '2200,22TL')}
-          id='checkbox5'
+          id='5'
+          value={networks.Bedel}
          />
               
             </div>
             
-           <label>Yatarak Tedavi</label>
+           <label>{networks5.network_Name}</label>
             
             
            </div>
            <div className='pembe-alt-kutu-fiyat'>
-            <label>1,987,25TL</label>
+            <label>{networks5.bedel}</label>
            </div>
            <div className='pembe-alt-kutu'>
             <div className='cekbox'>
@@ -200,22 +233,23 @@ function Step3({onNext}) {
        
           checked={selectedCheckbox === 'lacivert2'}         
           onChange={() => handleCheckboxChange('lacivert2','Lacivert Network Yatarak Tedavi', '2700,22TL')}
-          id='checkbox6'
+          id='6'
+          value={networks5.bedel}
          />
               
             </div>
             
-           <label>Ayakta Tedavi</label>
+           <label>{networks6.network_Name}</label>
             
             
            </div>
            <div className='pembe-alt-kutu-fiyat'>
-            <label>1,987,26TL</label>
+            <label>{networks6.bedel}</label>
            </div>
         </div>
         <div className='step3-sag-bar'>
               <div className='step2-sag-bar-ust'>
-          <label><span>Kaiya Tamamlayıcı Sağlık</span> Sigortası</label></div>
+          <label><span>Kaiya Tamamlayıcı Sağlık Sigortası</span> </label></div>
           <div className='sa-sag-bar-alt'>
             <div className='step2-sigortali'>
 
@@ -237,6 +271,7 @@ function Step3({onNext}) {
               <label>{selectedPaketData.price}</label>
             </div>
           )}
+          
         </div>
              
          <button onClick={handleSaveAndContinue} className='step3-button'>Devam Et</button>

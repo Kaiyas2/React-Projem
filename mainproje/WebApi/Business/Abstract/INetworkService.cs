@@ -12,5 +12,8 @@ namespace Business.Abstract
     {
         IDataResult<List<Network>> GetList();
         IResult add(Network network);
+
+        IDataResult<Network> GetById(int Network_Id);
+
     }
 }

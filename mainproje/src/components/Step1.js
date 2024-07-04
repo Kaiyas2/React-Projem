@@ -46,6 +46,10 @@ function Step1({ onNext }) {
       const response = await axios.get(`http://localhost:32513/api/Customers/getbytc?customerTc=${customerTc}`);
       if (response.data) {
         setExistingCustomerData(response.data);
+        formik.setValues({
+          ...formik.values,
+          ...response.data
+        });
       }
     } catch (error) {
       console.error('Error fetching customer data:', error);
@@ -61,26 +65,33 @@ function Step1({ onNext }) {
         onNext();
         setActiveStep(activeStep => activeStep + 1);
       }
+      else{
+        console.log(formik.values);
+        setCustomer(mergedData);
+        onNext();
+        setActiveStep(activeStep => activeStep + 1);
+      }
     } catch (error) {
       console.error('Error posting data:', error);
     }
   };
 
   
-
+  const formik = useFormik({
+    initialValues: existingCustomerData || initialValues,
+    validationSchema,
+    onSubmit: handleSubmit,
+  });
+  
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
     const id = urlParams.get('customerTc');
     if (id) {
       handleTcChange({ target: { value: id } });
     }
-  }, []);
+  }, [existingCustomerData, formik.values.customerTc]);
 
-  const formik = useFormik({
-    initialValues: existingCustomerData || initialValues,
-    validationSchema,
-    onSubmit: handleSubmit,
-  });
+
 
   const mergedData = {
     ...saglikData, 
@@ -89,13 +100,16 @@ function Step1({ onNext }) {
 
   const handleFormSubmit = () => {
     if (!existingCustomerData) {
-      formik.handleSubmit();
-
+        formik.handleSubmit();
+    } else {
+        const confirmation = window.confirm("Müşteri Kayıtlı Devam Ediyor musunuz?");
+        if (confirmation) {
+            formik.handleSubmit();
+        } else {
+          
+        }
     }
-    else{
-      alert("Müşteri Zaten Kayıtlı!")
-    }
-  };
+};
 
 
   return (
@@ -119,7 +133,7 @@ function Step1({ onNext }) {
             value={existingCustomerData ? existingCustomerData.customerBirth : formik.values.customerBirth}
             onChange={formik.handleChange}
             id='customerBirth'
-            disabled={existingCustomerData ? true : false}
+           
           />
         </div>
         <div className='erol1'>
@@ -142,7 +156,6 @@ function Step1({ onNext }) {
             className={formik.errors.customerName? 'input-error' : ''}
             value={existingCustomerData ? existingCustomerData.customerName : formik.values.customerName}
             onChange={formik.handleChange}
-            disabled={existingCustomerData ? true : false}
           />
           <div className='bos'></div>
           <input
@@ -151,15 +164,14 @@ function Step1({ onNext }) {
             value={existingCustomerData ? existingCustomerData.customerAdress : formik.values.customerAdress}
             onChange={formik.handleChange}
             id='customerAdress'
-            disabled={existingCustomerData ? true : false}
           />
         </div>
         <div className='erol1'>
         {formik.errors.customerName && formik.touched.customerName && (
         <label className='error'>{formik.errors.customerName}</label>
       )}
-              {formik.errors.customerMail && formik.touched.customerMail && (
-        <label className='error2'>{formik.errors.customerMail}</label>
+              {formik.errors.customerAdress && formik.touched.customerAdress && (
+        <label className='error2'>{formik.errors.customerAdress}</label>
       )}
         </div>
         <div className='orta-div'>
@@ -174,7 +186,6 @@ function Step1({ onNext }) {
             value={existingCustomerData ? existingCustomerData.customerMail : formik.values.customerMail}
             onChange={formik.handleChange}
             id='customerMail'
-            disabled={existingCustomerData ? true : false}
           />
           <div className='bos'></div>
           <input
@@ -183,7 +194,6 @@ function Step1({ onNext }) {
             value={existingCustomerData ? existingCustomerData.customerNumber : formik.values.customerNumber}
             onChange={formik.handleChange}
             id='customerNumber'
-            disabled={existingCustomerData ? true : false}
           />
         </div>
         <div className='erol1'>
@@ -223,10 +233,10 @@ function Step1({ onNext }) {
       </div>
       <div className='sa-sag-bar'>
         <div className='sa-sag-bar-ust'>
-          <label><span className='sa-span'>Kaiya Tamamlayıcı Sağlık</span> Sigortası</label>
+         <span>Kaiya Tamamlayıcı Sağlık Sigortası</span>
         </div>
         <div className='sa-sag-bar-alt'>
-          <label className='sa-sag-bar-alt-yazi'>Kaiya Tamamlayıcı Sağlık Sigortası nasıl alınır?</label>
+          <label >Kaiya Tamamlayıcı Sağlık Sigortası nasıl alınır?</label>
           <ul>
             <li>Sigortalı bilgileri girilir.</li>
             <li>İletişim bilgileri girilir.</li>

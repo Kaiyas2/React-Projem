@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yQfOPzeZarD+VrQi7AL8mgvCiTWc//E7oZz/7xafkm3m0fOe6DRQYHUzBMthw9C58eaoyhxLUBRGl6e1pna4Lg==",
+  "dgSpecHash": "kOrabFePUelUcxrT5fd6sm+7m9OfCPZHnoTk24Aiprmonc3BMJGNMg4UbplH/nXjo3tflTYy++tEzRQWWP+s4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\death\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\death\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

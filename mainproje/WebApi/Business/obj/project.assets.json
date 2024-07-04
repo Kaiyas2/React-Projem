@@ -2848,11 +2848,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Business\\Business.csproj",
+      "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\death\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Business\\obj\\",
+      "outputPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\death\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2869,11 +2869,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\DataAccesss\\DataAccesss.csproj": {
-              "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\DataAccesss\\DataAccesss.csproj"
+            "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\DataAccesss\\DataAccesss.csproj": {
+              "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\DataAccesss\\DataAccesss.csproj"
             },
-            "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Entities\\Entities.csproj"
+            "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Entities\\Entities.csproj"
             }
           }
         }

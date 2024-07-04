@@ -2753,11 +2753,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\death\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\Core\\obj\\",
+      "outputPath": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\death\\AppData\\Roaming\\NuGet\\NuGet.Config",

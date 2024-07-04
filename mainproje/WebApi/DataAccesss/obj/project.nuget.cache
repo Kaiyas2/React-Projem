@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6ktzl6ELAtDDzoTm+NGggw2dTtPDJHHyScQDxNUFTeIR2uElQezZ2WcKoMeyu/x3b2ZNYUs4BSdpqoY4LaGb3Q==",
+  "dgSpecHash": "oWRzzxoDlzZM/xVITu21Q9Vd6kSEV65EGp7azgYvcWCYfiC5Y+Cz2xeuseBZgoM6GUB3R2hFP7vDwF88JrDZrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\death\\OneDrive\\Masaüstü\\sa\\mainproje\\WebApi\\DataAccesss\\DataAccesss.csproj",
+  "projectFilePath": "C:\\Users\\death\\OneDrive\\Masaüstü\\kurs deneme\\site\\React Projem\\mainproje\\WebApi\\DataAccesss\\DataAccesss.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\death\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\death\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

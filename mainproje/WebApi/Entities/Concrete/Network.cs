@@ -13,8 +13,7 @@ namespace Entities.Concrete
         [Key]
         public int Network_Id { get; set; }
         public string Network_Name { get; set; }
-        public int? Yatarak_Tedavi { get; set; }
-        public int? Ayakta_Tedavi { get; set; }
+        public double Bedel { get; set; }
 
     }
 }

@@ -51,3 +51,21 @@ C:\Users\death\OneDrive\Masaüstü\sa\mainproje\WebApi\DataAccesss\obj\Debug\net
 C:\Users\death\OneDrive\Masaüstü\sa\mainproje\WebApi\DataAccesss\obj\Debug\net8.0\refint\DataAccesss.dll
 C:\Users\death\OneDrive\Masaüstü\sa\mainproje\WebApi\DataAccesss\obj\Debug\net8.0\DataAccesss.pdb
 C:\Users\death\OneDrive\Masaüstü\sa\mainproje\WebApi\DataAccesss\obj\Debug\net8.0\ref\DataAccesss.dll
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\bin\Debug\net8.0\DataAccesss.deps.json
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\bin\Debug\net8.0\DataAccesss.dll
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\bin\Debug\net8.0\DataAccesss.pdb
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\bin\Debug\net8.0\Core.dll
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\bin\Debug\net8.0\Entities.dll
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\bin\Debug\net8.0\Entities.pdb
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\bin\Debug\net8.0\Core.pdb
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\obj\Debug\net8.0\DataAccesss.csproj.AssemblyReference.cache
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\obj\Debug\net8.0\DataAccesss.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\obj\Debug\net8.0\DataAccesss.AssemblyInfoInputs.cache
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\obj\Debug\net8.0\DataAccesss.AssemblyInfo.cs
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\obj\Debug\net8.0\DataAccesss.csproj.CoreCompileInputs.cache
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\obj\Debug\net8.0\DataAccesss.sourcelink.json
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\obj\Debug\net8.0\DataAcce.979BB480.Up2Date
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\obj\Debug\net8.0\DataAccesss.dll
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\obj\Debug\net8.0\refint\DataAccesss.dll
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\obj\Debug\net8.0\DataAccesss.pdb
+C:\Users\death\OneDrive\Masaüstü\kurs deneme\site\React Projem\mainproje\WebApi\DataAccesss\obj\Debug\net8.0\ref\DataAccesss.dll

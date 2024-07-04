@@ -13,15 +13,13 @@ function Step4({onNext}) {
   const { customerData } = useCustomer();
   const { saglikData } = useCustomer();
   const { selectedPaketData } = useCustomer();
-  const [smsChecked, setSmsChecked] = useState(false);
-  const [mailChecked, setMailChecked] = useState(false);
+ 
 
 
 
 
 
   const { step4Data, setStep4Data } = useCustomer();
-
   const handleSaveAndContinue = () => {
 
     onNext(); 
@@ -30,28 +28,7 @@ function Step4({onNext}) {
   
     setStep4Data(formik.values);
   };
-
-  const handleCheck = (e) => {
-    const { id, checked } = e.target;
-    if (id === 'sms') {
-      setSmsChecked(checked);
-      if (checked) {
-        setMailChecked(false);
-      }
-    } else if (id === 'mail') {
-      setMailChecked(checked);
-      if (checked) {
-        setSmsChecked(false);
-      }
-    }
-  }
- 
-
-  
-
 const initialValues={
-
-
   textfield1:"",
   textfield2:"",
   textfield3:"",
@@ -69,14 +46,8 @@ const initialValues={
 
 }
 const formik= useFormik({
-
   initialValues,
-
 })
-
-
-
-
   const [tableOpen, setTableOpen] = useState(null);
   const [initialLoad, setInitialLoad] = useState(null);
   const [checkboxStates, setCheckboxStates] = useState({
@@ -94,7 +65,6 @@ const formik= useFormik({
     alzheimerParkinson: false,
     digerHastalik: false
   });
-
   const handleButtonClick = () => {
     setTableOpen(load => !load);
     if (initialLoad) {
@@ -115,12 +85,6 @@ const formik= useFormik({
     }, {});
     setCheckboxStates(updatedHealthIssues);
   };
-
-
-
-
-
-
   const handleCheckboxChange = (check) => {
     setCheckboxStates(load => ({
       ...load,
